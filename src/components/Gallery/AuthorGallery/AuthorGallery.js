@@ -61,7 +61,7 @@ class AuthorGallery extends Component {
 		}
 		const authors = edition.authors;
 		const currentAuthor = authors.find(author => author.name === authorName.replace(/_/, ' '));
-		console.log(currentAuthor)
+
 		if(typeof currentAuthor === 'undefined'){
 			this.goToHomePage()
 			return null
