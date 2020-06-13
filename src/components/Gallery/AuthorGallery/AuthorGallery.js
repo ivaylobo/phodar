@@ -17,12 +17,17 @@ class AuthorGallery extends Component {
 		blackBg: false
 	}
 
-	goBack = () => {
+	goBack = (year) => {
 		this.setState({
 			showSlider: false,
 			selectedItem: 0
 		})
-		this.props.history.goBack();
+		if(this.props.history.length > 3){
+			this.props.history.goBack();
+		} else {
+			this.props.history.push("/" + year)
+		}
+
 	}
 
 	toggleView = () => {
@@ -54,16 +59,20 @@ class AuthorGallery extends Component {
 		}
 		const year = +this.props.location.pathname.replace('/', '');
 		let authorName = this.props.location.search.replace('?author=', '');
-		 if(authorName.indexOf('&fbclid') !== -1){
-			 authorName = authorName.substring(0, authorName.lastIndexOf('&fbclid')) // fix for facebook links
-		 }
 		const edition = galleryObj.find(edition => edition.year === year);
+		if(authorName.indexOf('&fbclid') !== -1){
+			authorName = authorName.substring(0, authorName.lastIndexOf('&fbclid')) // fix for facebook links
+			this.props.history.push({
+				pathname: edition.year,
+				search: '?author=' + authorName
+			})
+		}
 		if(typeof edition === 'undefined'){
 			this.goToHomePage()
 			return null
 		}
 		const authors = edition.authors;
-		const currentAuthor = authors.find(author => author.name === authorName.replace(/_/, ' '));
+		const currentAuthor = authors.find(author => author.name === authorName.replace(/_/g, ' '));
 
 		if(typeof currentAuthor === 'undefined'){
 			this.goToHomePage()
@@ -95,7 +104,7 @@ class AuthorGallery extends Component {
 									<h4>{currentAuthor.title}</h4>
 								</div>
 								<div className="rightMenu">
-									<link to={`/${edition}`} className="close" onClick={this.goBack}></link>
+									<link to={`/${edition}`} className="close" onClick={() => this.goBack(year)}></link>
 									<div className={`countSwitch ${this.state.showSlider ? 'active' : ''}`} onClick={this.toggleView}></div>
 									<div className="colored desktop" onClick={this.toggleBg}></div>
 								</div>
