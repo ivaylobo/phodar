@@ -53,7 +53,10 @@ class AuthorGallery extends Component {
 			return (null)
 		}
 		const year = +this.props.location.pathname.replace('/', '');
-		const authorName = this.props.location.search.replace('?author=', '');
+		let authorName = this.props.location.search.replace('?author=', '');
+		 if(authorName.indexOf('&fbclid') !== -1){
+			 authorName = authorName.substring(0, authorName.lastIndexOf('&fbclid')) // fix for facebook links
+		 }
 		const edition = galleryObj.find(edition => edition.year === year);
 		if(typeof edition === 'undefined'){
 			this.goToHomePage()
