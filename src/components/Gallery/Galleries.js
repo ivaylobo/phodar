@@ -7510,6 +7510,44 @@ const galleryObj = [
 					"galleriesThumb/2019/Yulia_Abzaltdinova/15.jpg",
 				]
 			},
+			{
+				name: "Alexander Terziyski",
+				text: "",
+				title: "",
+				award: "",
+				country: "Bulgaria",
+				level: 5,
+				urls: [
+					"galleries/2019/Alexander_Terziyski/1.jpg",
+					"galleries/2019/Alexander_Terziyski/2.jpg",
+					"galleries/2019/Alexander_Terziyski/3.jpg",
+					"galleries/2019/Alexander_Terziyski/4.jpg",
+					"galleries/2019/Alexander_Terziyski/5.jpg",
+					"galleries/2019/Alexander_Terziyski/6.jpg",
+					"galleries/2019/Alexander_Terziyski/7.jpg",
+					"galleries/2019/Alexander_Terziyski/8.jpg",
+				],
+				urlsMedium: [
+					"galleriesMedium/2019/Alexander_Terziyski/1.jpg",
+					"galleriesMedium/2019/Alexander_Terziyski/2.jpg",
+					"galleriesMedium/2019/Alexander_Terziyski/3.jpg",
+					"galleriesMedium/2019/Alexander_Terziyski/4.jpg",
+					"galleriesMedium/2019/Alexander_Terziyski/5.jpg",
+					"galleriesMedium/2019/Alexander_Terziyski/6.jpg",
+					"galleriesMedium/2019/Alexander_Terziyski/7.jpg",
+					"galleriesMedium/2019/Alexander_Terziyski/8.jpg",
+				],
+				urlsThumb: [
+					"galleriesThumb/2019/Alexander_Terziyski/1.jpg",
+					"galleriesThumb/2019/Alexander_Terziyski/2.jpg",
+					"galleriesThumb/2019/Alexander_Terziyski/3.jpg",
+					"galleriesThumb/2019/Alexander_Terziyski/4.jpg",
+					"galleriesThumb/2019/Alexander_Terziyski/5.jpg",
+					"galleriesThumb/2019/Alexander_Terziyski/6.jpg",
+					"galleriesThumb/2019/Alexander_Terziyski/7.jpg",
+					"galleriesThumb/2019/Alexander_Terziyski/8.jpg",
+				]
+			},
 		]
 	},
 ];
