@@ -5716,7 +5716,7 @@ const galleryObj = [
 				text: "Mihayl Krasinetz is a former racer and mechanic of the factory team AZLK. He begins to collect in his backyard old Soviet cars during the late 1980s. His neighbors, however, would vandalize over his collection, so he is forced to move in the village of Chernousovo, near Tula, 300 kilometers away from Moscow. This is his wife Marina’s birthplace, who becomes a keeper of the self-proclaimed free access museum.",
 				title: "KEEPER OF THE MUSEUM",
 				award: "",
-				country: "Turkmenistan",
+				country: "France and Russia",
 				level: 5,
 				urls: [
 					"galleries/2019/George_Vinogradov/1.jpg",
