@@ -10,7 +10,7 @@ const home = (props) => {
 					<div className="row">
 						<div className="col-md-12 main">
 							<div className="top">
-								<h4>10</h4>
+								<h4>11</h4>
 
 								<div className="next"><span>{translate('th')}</span><br/><span>{translate('edition')}</span></div>
 							</div>
@@ -21,11 +21,11 @@ const home = (props) => {
 							</div>
 							<div className="links">
 								{/*<NavLink className="buttonLink" to="/events">{translate('Events')}</NavLink>*/}
-								<a href="#gallery" className="buttonLink"> {translate('GALLERY')}</a>
+								<a href="#gallery" className="buttonLink"> {translate('Editions')}</a>
 							</div>
 							<div className="edition">
 								<h6>competition</h6>
-								<h6>2019</h6>
+								<h6>2021</h6>
 							</div>
 						</div>
 					</div>
