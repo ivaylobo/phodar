@@ -13,6 +13,7 @@ export default {
 		"Your world": "Твоят свят",
 		"Identities": "Идентичности",
 		"France, Italy": "Франция, Италия",
+		"France and Russia": "Франция и Русия",
 		"Swiss": "Швейцария",
 		"Iran" : "Иран",
 		"Fact, fiction, truth": "Факт, Фикция, Истина",

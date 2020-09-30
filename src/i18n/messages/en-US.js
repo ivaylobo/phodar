@@ -9,6 +9,7 @@ export default {
 		"Latvia": "Latvia",
 		"Australia": "Australia",
 		"Brazil & Italy":"Brazil & Italy",
+		"France and Russia": "France and Russia",
 		"no motto": "no motto",
 		"Your world": "Your world",
 		"Identities": "Identities",

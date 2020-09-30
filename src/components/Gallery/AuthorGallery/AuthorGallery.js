@@ -22,7 +22,7 @@ class AuthorGallery extends Component {
 			showSlider: false,
 			selectedItem: 0
 		})
-		if(this.props.history.length > 3){
+		if (this.props.history.length > 3) {
 			this.props.history.goBack();
 		} else {
 			this.props.history.push("/" + year)
@@ -60,21 +60,21 @@ class AuthorGallery extends Component {
 		const year = +this.props.location.pathname.replace('/', '');
 		let authorName = this.props.location.search.replace('?author=', '');
 		const edition = galleryObj.find(edition => edition.year === year);
-		if(authorName.indexOf('&fbclid') !== -1){
+		if (authorName.indexOf('&fbclid') !== -1) {
 			authorName = authorName.substring(0, authorName.lastIndexOf('&fbclid')) // fix for facebook links
 			this.props.history.push({
 				pathname: edition.year,
 				search: '?author=' + authorName
 			})
 		}
-		if(typeof edition === 'undefined'){
+		if (typeof edition === 'undefined') {
 			this.goToHomePage()
 			return null
 		}
 		const authors = edition.authors;
 		const currentAuthor = authors.find(author => author.name === authorName.replace(/_/g, ' '));
 
-		if(typeof currentAuthor === 'undefined'){
+		if (typeof currentAuthor === 'undefined') {
 			this.goToHomePage()
 			return null
 		}
@@ -88,7 +88,7 @@ class AuthorGallery extends Component {
 
 		const images = currentAuthor.urls.map((image, id) => {
 			return (
-				<img key={id} src={image} alt=""/>
+					<img key={id} src={image} alt=""/>
 			)
 		});
 
@@ -111,8 +111,8 @@ class AuthorGallery extends Component {
 								<div className="colored mobile" onClick={this.toggleBg}></div>
 								{this.state.showSlider ?
 									<div className="carouselHolder">
-									<Slider sliderImages={images} thumbs={false} selectedItem={this.state.selectedItem}/>
-								</div>
+										<Slider sliderImages={images} thumbs={false} selectedItem={this.state.selectedItem}/>
+									</div>
 									:
 									<Masonry
 										className={'my-gallery-class'} // default ''
@@ -126,7 +126,7 @@ class AuthorGallery extends Component {
 									</Masonry>
 								}
 
-						<p className="collection-text">{currentAuthor.text}</p>
+								<p className="collection-text">{currentAuthor.text}</p>
 
 							</div>
 						</div>
