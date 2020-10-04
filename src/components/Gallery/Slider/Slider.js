@@ -34,6 +34,7 @@ class Slider extends React.Component{
 				showIndicators={true}
 				autoPlay={true}
 				infiniteLoop={true}
+				swipeable={true}
 				renderArrowPrev={(onClickHandler, hasPrev, label) =>
 					hasPrev && (
 						<div type="button" className="arrow-left" onClick={onClickHandler} title={label} >

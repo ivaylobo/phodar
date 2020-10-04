@@ -33,6 +33,9 @@ const header = (props) => {
 							<NavLink to='/regulations'>{translate('Regulations')}</NavLink>
 						</li>
 						{/*<li>*/}
+						{/*	<NavLink to='/privacy'>{translate('Privacy')}</NavLink>*/}
+						{/*</li>*/}
+						{/*<li>*/}
 						{/*	<NavLink to='/events'>{translate('Events')}</NavLink>*/}
 						{/*</li>*/}
 						{/*<li>*/}

@@ -12,7 +12,9 @@ import AboutUs from "./TextContainers/AboutUs";
 import Regulations from "./TextContainers/Regulations";
 import Events from "./TextContainers/Events";
 import News from "./TextContainers/News";
+import Cookies from "./TextContainers/Cookies";
 import AuthorGallery from "./components/Gallery/AuthorGallery/AuthorGallery";
+import Popup from "./components/Popup/Popup";
 
 
 class App extends Component {
@@ -51,10 +53,12 @@ class App extends Component {
 							<Route path="/regulations" exact component={Regulations}/>
 							<Route path="/events" exact component={Events}/>
 							<Route path="/news" exact component={News}/>
+							<Route path="/cookies" exact component={Cookies}/>
 							<Route path="/" component={Home}/>
 						</Switch>
 						<Footer/>
 					</div>
+					<Route path="/" component={Popup}/>
 				</BrowserRouter>
 			</I18nProvider>
 		);

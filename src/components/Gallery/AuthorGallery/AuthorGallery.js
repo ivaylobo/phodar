@@ -4,10 +4,9 @@ import Masonry from "react-masonry-component";
 import Slider from "../Slider/Slider";
 
 const masonryOptions = {
-	transitionDuration: 0
+	transitionDuration: 300
 };
 
-const imagesLoadedOptions = {background: '.my-bg-image-el'}
 
 class AuthorGallery extends Component {
 
@@ -120,7 +119,6 @@ class AuthorGallery extends Component {
 										options={masonryOptions} // default {}
 										disableImagesLoaded={false} // default false
 										updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
-										imagesLoadedOptions={imagesLoadedOptions} // default {}
 									>
 										{imagesThumb}
 									</Masonry>

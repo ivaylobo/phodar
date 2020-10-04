@@ -49,11 +49,6 @@ a:hover {
     text-decoration: none;
 }
 
-
-/*header{
-	padding-bottom: 70px;
-}*/
-
 header{
     z-index: 101;
     position: fixed;
@@ -72,21 +67,42 @@ header{
 
 .headerRow {
     height: 70px;
-    /*	position: fixed;
-        z-index: 9999;
-        width: 100%;
-        background: #fff;
-        top: 0;
-        right: 0;*/
+}
+
+.wrap{
+    padding-top: 70px;
 }
 
 .cookies {
-    background: #5b5b5b;
+    background: #4e4e4e;
     padding: 20px;
     position: fixed;
     bottom: 0;
     right: 0;
+    left: 0;
     z-index: 1000;
+}
+
+.cookies p{
+    color: #fff;
+    display: inline-block;
+    margin: 0;
+    width: calc(100% - 100px);
+    vertical-align: middle;
+}
+
+.cookies p a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cookies p a:active{
+    color: #fff;
+}
+
+.cookies button{
+    vertical-align: middle;
+    margin-left: 10px;
 }
 
 .logo {
@@ -117,12 +133,12 @@ header{
     display: inline-block;
 }
 
-.main-links li:first-of-type a {
-    margin-left: 0;
+.main-links li a.active{
+    color: #bc1818;
 }
 
-.active {
-    color: #bc1818 !important;
+.main-links li:first-of-type a {
+    margin-left: 0;
 }
 
 .lang {
@@ -146,6 +162,10 @@ header{
     color: #b2b2b2;
 }
 
+.lang li.active{
+    color: #bc1818;
+}
+
 .lang li:last-of-type {
     border-top: 1px solid #cdcdcd;
 }
@@ -166,7 +186,6 @@ header{
     background-size: 100% auto;
     color: #fff;
     position: relative;
-    margin-top: 70px;
 }
 
 .summary:before {
@@ -283,6 +302,8 @@ header{
     font-size: 30px;
 }
 
+
+
 .mainInfo {
     text-align: center;
     margin: 40px 0 0;
@@ -374,7 +395,7 @@ header{
     color: #c12747;
 }
 
-.buttonLink {
+.buttonLink, .accept-cookies {
     font-size: 14px;
     text-transform: uppercase;
     padding: 10px 30px;
@@ -385,12 +406,22 @@ header{
     color: #fff;
     text-decoration: none;
     opacity: 0.8;
+    border: none;
 }
 
 .buttonLink:hover {
     background: rgba(188, 24, 24, 0.8);
     color: #fff;
     text-decoration: none;
+}
+
+.accept-cookies{
+    color: #4d4d4d;
+    background: #fff;
+}
+
+.accept-cookies:hover{
+    opacity: 0.6;
 }
 
 .opening {
@@ -492,17 +523,6 @@ footer {
     height: 1px;
     background: #dcdcdc;
     left: 0;
-}
-
-.galleryContainer .menuBar:after {
-    content: '';
-    display: block;
-    position: absolute;
-    width: 100%;
-    height: 1px;
-    background: #dcdcdc;
-    left: 0;
-    margin-top: 20px;
 }
 
 .menuBar p {
@@ -1661,5 +1681,14 @@ footer .social .googlePlus {
 
     .summary h1 {
         font-size: 18px;
+    }
+
+    .cookies p{
+        font-size: 12px;
+        vertical-align: top;
+    }
+
+    .cookies button{
+        vertical-align: top;
     }
 }
