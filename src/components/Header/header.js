@@ -30,7 +30,7 @@ const header = (props) => {
 							<NavLink to='/aboutUs'>{translate('Who we are')}</NavLink>
 						</li>
 						<li>
-							<NavLink to='/regulations'>{translate('Regulations')}</NavLink>
+							<NavLink to='/terms'>{translate('terms')}</NavLink>
 						</li>
 						{/*<li>*/}
 						{/*	<NavLink to='/privacy'>{translate('Privacy')}</NavLink>*/}

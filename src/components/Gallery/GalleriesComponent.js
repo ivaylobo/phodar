@@ -1,15 +1,16 @@
 import React, {Component} from "react";
 import galleryObj from "./Galleries";
 import translate from "../../i18n/translate";
-import {NavLink} from "react-router-dom";
+import {NavLink, useHistory} from "react-router-dom";
 import {Route} from "react-router";
 import EditionGallery from './EditionGallery/EditionGallery';
 import GalleriesList from "./GalleriesList/GalleriesList";
+import { withRouter } from "react-router-dom";
 
 class GalleriesComponent extends Component {
 
 	state = {
-		currentYear: galleryObj[galleryObj.length - 1].year
+		currentYear: ''
 	}
 
 	setCurrentYear = (year) => {
@@ -18,11 +19,18 @@ class GalleriesComponent extends Component {
 		})
 	}
 
+	componentDidMount() {
+		this.setState({
+			currentYear: galleryObj[galleryObj.length - 1].year
+		});
+		this.props.history.push(`/${galleryObj[galleryObj.length - 1].year}`)
+	}
+
 	render() {
 		const lastEdition = galleryObj[galleryObj.length - 1].year
 		const editions = galleryObj.map(edition => {
 			const year = edition.year;
-			const yearPath = year !== lastEdition ? year : '';
+			const yearPath = year;
 			return (
 				<li key={year} onClick={() => this.setCurrentYear(year)}>
 					<NavLink exact to={'/' + yearPath}>
@@ -54,4 +62,4 @@ class GalleriesComponent extends Component {
 	}
 }
 
-export default GalleriesComponent
+export default withRouter(GalleriesComponent)

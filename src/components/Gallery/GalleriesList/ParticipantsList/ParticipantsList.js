@@ -6,7 +6,7 @@ const participantsList = (props) => {
 	const participantsHTML = props.participants.map(author => {
 		return (author.urls.length ? (
 			<div className="col-md-6 singleImg" key={`${author.name}_${props.edition}`}>
-				<div className='img-container'>
+				<div className='img-container' id={author.name.replace(/ /g, '_')}>
 					<NavLink to={{
 						pathname: `/${props.edition}`,
 						search: `?author=${author.name.replace(/ /g, '_')}`

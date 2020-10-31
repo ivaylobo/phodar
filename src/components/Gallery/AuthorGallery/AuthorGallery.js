@@ -16,16 +16,13 @@ class AuthorGallery extends Component {
 		blackBg: false
 	}
 
-	goBack = (year) => {
+	goBack = () => {
 		this.setState({
 			showSlider: false,
 			selectedItem: 0
 		})
-		if (this.props.history.length > 3) {
-			this.props.history.goBack();
-		} else {
-			this.props.history.push("/" + year)
-		}
+
+		this.props.history.goBack();
 
 	}
 
@@ -103,7 +100,7 @@ class AuthorGallery extends Component {
 									<h4>{currentAuthor.title}</h4>
 								</div>
 								<div className="rightMenu">
-									<link to={`/${edition}`} className="close" onClick={() => this.goBack(year)}></link>
+									<link to={`#${currentAuthor.name.replace(/ /g, '_')}`} className="close" onClick={() => this.goBack(year)}></link>
 									<div className={`countSwitch ${this.state.showSlider ? 'active' : ''}`} onClick={this.toggleView}></div>
 									<div className="colored desktop" onClick={this.toggleBg}></div>
 								</div>

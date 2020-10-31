@@ -13,6 +13,7 @@ import Regulations from "./TextContainers/Regulations";
 import Events from "./TextContainers/Events";
 import News from "./TextContainers/News";
 import Cookies from "./TextContainers/Cookies";
+import Terms from "./TextContainers/Terms";
 import AuthorGallery from "./components/Gallery/AuthorGallery/AuthorGallery";
 import Popup from "./components/Popup/Popup";
 
@@ -54,6 +55,7 @@ class App extends Component {
 							<Route path="/events" exact component={Events}/>
 							<Route path="/news" exact component={News}/>
 							<Route path="/cookies" exact component={Cookies}/>
+							<Route path="/terms" exact component={Terms}/>
 							<Route path="/" component={Home}/>
 						</Switch>
 						<Footer/>

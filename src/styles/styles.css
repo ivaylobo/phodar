@@ -566,6 +566,10 @@ footer {
     text-decoration: none;
 }
 
+.galleryContainer ul li a.active{
+    color: #bc1818;
+}
+
 .galleryContainer ul.awards li a {
     padding-left: 30px;
 }
@@ -1140,7 +1144,7 @@ section .author {
     display: inline;
 }
 
-.internal p {
+.internal p, .internal ol li {
     font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-style: italic;
@@ -1195,6 +1199,23 @@ section .author {
 }
 
 .internal.events p span {
+    color: #949494;
+}
+.internal.terms ul{
+    padding-left: 30px;
+}
+
+.internal.terms ul li{
+    list-style-type: circle;
+    display: list-item;
+}
+
+.internal.terms ul.dashed li{
+    list-style-type: none;
+    color: #949494;
+}
+.internal.terms ul.dashed li:before{
+    content: '- ';
     color: #949494;
 }
 
