@@ -23,7 +23,12 @@ class GalleriesComponent extends Component {
 		this.setState({
 			currentYear: galleryObj[galleryObj.length - 1].year
 		});
-		this.props.history.push(`/${galleryObj[galleryObj.length - 1].year}`)
+	}
+
+	componentDidUpdate() {
+		if(this.props.history.location.pathname === '/galleries/' || this.props.history.location.pathname === '/galleries'){
+			this.props.history.push(`/galleries/${galleryObj[galleryObj.length - 1].year}`)
+		}
 	}
 
 	render() {
@@ -33,7 +38,7 @@ class GalleriesComponent extends Component {
 			const yearPath = year;
 			return (
 				<li key={year} onClick={() => this.setCurrentYear(year)}>
-					<NavLink exact to={'/' + yearPath}>
+					<NavLink exact to={'/galleries/' + yearPath}>
 						<h4>{year}</h4>
 					</NavLink>
 				</li>)
@@ -50,11 +55,11 @@ class GalleriesComponent extends Component {
 									{editions.reverse()}
 								</ul>
 							</div>
-							<Route path={'/:edition?'} render={(props) => <EditionGallery {...props} lastEdition={lastEdition}/>}/>
+							<Route path={'/galleries/:edition?'} render={(props) => <EditionGallery {...props} lastEdition={lastEdition}/>}/>
 						</div>
 					</div>
 				</div>
-				<Route path={'/:edition?'} render={(props) => <GalleriesList {...props} lastEdition={lastEdition}/>}/>
+				<Route path={'/galleries/:edition?'} render={(props) => <GalleriesList {...props} lastEdition={lastEdition}/>}/>
 			</div>
 
 		)

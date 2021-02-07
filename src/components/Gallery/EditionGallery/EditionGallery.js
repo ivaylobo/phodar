@@ -9,7 +9,7 @@ const editionGallery = (props) => {
 	const editionYear = typeof props.match.params.edition !== 'undefined' ? props.match.params.edition : Galleries[Galleries.length - 1].year
 	const currentEdition = Galleries.find((edition) => +editionYear === edition.year);
 	if(typeof currentEdition === 'undefined'){
-		props.history.push("/")
+		props.history.push("/galleries/")
 		return null
 	}
 	const winners = currentEdition.authors.filter(author => author.award && author.award !== '');
@@ -18,7 +18,7 @@ const editionGallery = (props) => {
 		return (
 			<li key={winner.name}>
 				<NavLink to={{
-					pathname: `/${editionYear}`,
+					pathname: `/galleries/${editionYear}`,
 					search: `?author=${winner.name.replace(/ /g, '_')}`
 				}}
 						 activeClassName='my-active'>
@@ -31,11 +31,11 @@ const editionGallery = (props) => {
 	const sliderImages = currentEdition.galleryUrls.map(url => {
 		return (
 			<NavLink to={{
-				pathname: `/${editionYear}`,
+				pathname: `/galleries/${editionYear}`,
 				search: `?author=${url[1].replace(/ /g, '_')}`
 			}}
 					 key={url[0]}>
-				<img src={url[0]} alt="product"/>
+				<img src={`/${url[0]}`} alt="product"/>
 			</NavLink>
 		)
 	})

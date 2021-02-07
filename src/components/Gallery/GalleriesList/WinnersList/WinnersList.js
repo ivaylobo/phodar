@@ -19,7 +19,7 @@ const winnersList = (props) => {
 
 											const authorInfo = ind === 0 && counter !== 0 ? <div className="authorInfo">
 												<NavLink to={{
-													pathname: `/${props.edition}`,
+													pathname: `/galleries/${props.edition}`,
 													search: `?author=${author.name.replace(/ /g, '_')}`
 												}}>
 													<p className="authorName">{author.name}</p>
@@ -28,24 +28,24 @@ const winnersList = (props) => {
 											</div> : null;
 											const smallImage = ind !== counter + 1 && (counter !== 2 || ind !== 0) ? (
 												<NavLink to={{
-													pathname: `/${props.edition}`,
+													pathname: `/galleries/${props.edition}`,
 													search: `?author=${author.name.replace(/ /g, '_')}`
 												}}>
-													<img src={picture} width="230px" alt=""/>
+													<img src={`/${picture}`} width="230px" alt=""/>
 												</NavLink>) : null;
 											const authorName = ind === 0 && counter === 0 ?
 												<NavLink to={{
-													pathname: `/${props.edition}`,
+													pathname: `/galleries/${props.edition}`,
 													search: `?author=${author.name.replace(/ /g, '_')}`
 												}}>
 													<p className="authorName">{author.name}</p>
 												</NavLink> : null;
 											const bigImage = ind === counter + 1 || (counter === 2 && ind === 0) ? (
 												<NavLink to={{
-													pathname: `/${props.edition}`,
+													pathname: `/galleries/${props.edition}`,
 													search: `?author=${author.name.replace(/ /g, '_')}`
 												}}>
-													<img className='big-img' src={author.urlsMedium[ind]} width="480px" alt=""/>
+													<img className='big-img' src={`/${author.urlsMedium[ind]}`} width="480px" alt=""/>
 												</NavLink>) : null
 
 											return (ind < 3 ?
@@ -74,7 +74,7 @@ const winnersList = (props) => {
 												pathname: `/${props.edition}`,
 												search: `?author=${author.name.replace(/ /g, '_')}`
 											}}>
-												<img src={author.urlsMedium[0]} width="480px" alt=""/>
+												<img src={`/${author.urlsMedium[0]}`} width="480px" alt=""/>
 											</NavLink>
 											<NavLink to={author.name.replace(/ /g, '_')}>
 												<p className="authorName">{author.name}</p>

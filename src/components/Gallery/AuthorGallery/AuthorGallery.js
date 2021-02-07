@@ -16,6 +16,7 @@ class AuthorGallery extends Component {
 		blackBg: false
 	}
 
+
 	goBack = () => {
 		this.setState({
 			showSlider: false,
@@ -46,20 +47,20 @@ class AuthorGallery extends Component {
 	}
 
 	goToHomePage = () => {
-		this.props.history.push("/")
+		this.props.history.push("/galleries/")
 	}
 
 	render() {
 		if (!this.props.location.search || this.props.location.search === '') {
 			return (null)
 		}
-		const year = +this.props.location.pathname.replace('/', '');
+		const year = +this.props.location.pathname.replace('/galleries/', '');
 		let authorName = this.props.location.search.replace('?author=', '');
 		const edition = galleryObj.find(edition => edition.year === year);
 		if (authorName.indexOf('&fbclid') !== -1) {
 			authorName = authorName.substring(0, authorName.lastIndexOf('&fbclid')) // fix for facebook links
 			this.props.history.push({
-				pathname: edition.year,
+				pathname: `/galleries/${edition.year}`,
 				search: '?author=' + authorName
 			})
 		}
@@ -77,14 +78,14 @@ class AuthorGallery extends Component {
 		const imagesThumb = currentAuthor.urlsThumb.map((image, id) => {
 			return (
 				<div className='m-brick' key={id}>
-					<img src={image} alt="" onClick={() => this.slideToImage(id)}/>
+					<img src={`/${image}`} alt="" onClick={() => this.slideToImage(id)}/>
 				</div>
 			)
 		});
 
 		const images = currentAuthor.urls.map((image, id) => {
 			return (
-					<img key={id} src={image} alt=""/>
+					<img key={id} src={`/${image}`}  alt=""/>
 			)
 		});
 
