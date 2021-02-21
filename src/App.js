@@ -10,12 +10,11 @@ import ScrollToTop from "./Auxillery/ScrollToTop";
 
 import Home from "./TextContainers/Home";
 import AboutUs from "./TextContainers/AboutUs";
-import Regulations from "./TextContainers/Regulations";
 import Events from "./TextContainers/Events";
 import News from "./TextContainers/News";
 import Cookies from "./TextContainers/Cookies";
 import Terms from "./TextContainers/Terms";
-import Gallery from "./TextContainers/Gallery";
+import GalleriesComponent from "./components/Gallery/GalleriesComponent"
 import AuthorGallery from "./components/Gallery/AuthorGallery/AuthorGallery";
 import Popup from "./components/Popup/Popup";
 
@@ -82,7 +81,7 @@ class App extends Component {
 							<Route path="/news" exact component={News}/>
 							<Route path="/cookies" exact component={Cookies}/>
 							<Route path="/terms" exact component={Terms}/>
-							<Route path="/galleries/" component={Gallery}/>
+							<Route path="/gallery/" component={GalleriesComponent}/>
 							<Route path="/regulations/" component={() => {
 								window.location.href = 'https://entry.phodar.net/';
 								return null;

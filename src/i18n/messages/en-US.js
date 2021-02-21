@@ -3,6 +3,7 @@ import React from "react";
 
 export default {
 	[LOCALES.ENGLISH]: {
+		"sofia_logo": "Funded by Sofia Municipality Culture Programme.",
 		"SEE THE FULL GALLERY OF WINNERS & PARTICIPANTS IN PAST EDITIONS": "SEE THE FULL GALLERY OF WINNERS & PARTICIPANTS IN PAST EDITIONS",
 		"past editions": "past editions",
 		"BE PART OF OUR EDITION PHOTO BOOK": "BE PART OF OUR EDITION PHOTO BOOK",

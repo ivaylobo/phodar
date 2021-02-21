@@ -53,8 +53,8 @@ const home = (props) => {
 							<h3>{translate('HOME_MAIN_TEXT_1', {cash: <strong>$2.000</strong>})} <br/>
 								{translate('HOME_MAIN_TEXT_9', {cash: <strong>$500</strong>})}</h3>
 							<p className="small-text">{translate('HOME_MAIN_TEXT_2')}
-							<br/>
-							{translate('HOME_MAIN_TEXT_2_1', {fee: <strong>20$</strong>})}</p>
+								<br/>
+								{translate('HOME_MAIN_TEXT_2_1', {fee: <strong>20$</strong>})}</p>
 						</div>
 					</div>
 					<div className="row">
@@ -75,6 +75,17 @@ const home = (props) => {
 					<div className="row">
 						<div className="col-md-12">
 							<NavLink onClick={props.hamburgerMobile} className="buttonLink" to='/regulations/'>{translate('enter now')}</NavLink>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div className="logo-sofia">
+				<div className="container">
+					<div className="row">
+						<div className="col-md-12">
+							<div className="logo-container">
+								<h3>{translate('sofia_logo')}</h3>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -118,68 +129,68 @@ const home = (props) => {
 							<h3>{translate('SEE THE FULL GALLERY OF WINNERS & PARTICIPANTS IN PAST EDITIONS')}</h3>
 							<ul className="desktop first">
 								<li>
-									<NavLink to='/galleries/2019/' exact><span>2019</span></NavLink>
+									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2013' exact><span>2013</span></NavLink>
+									<NavLink to='/gallery/2013' exact><span>2013</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2009' exact><span>2009</span></NavLink>
+									<NavLink to='/gallery/2009' exact><span>2009</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2005' exact><span>2005</span></NavLink>
+									<NavLink to='/gallery/2005' exact><span>2005</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2001' exact><span>2001</span></NavLink>
+									<NavLink to='/gallery/2001' exact><span>2001</span></NavLink>
 								</li>
 							</ul>
 							<ul className="desktop second">
 								<li>
-									<NavLink to='/galleries/2015/' exact><span>2015</span></NavLink>
+									<NavLink to='/gallery/2015/' exact><span>2015</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2011' exact><span>2011</span></NavLink>
+									<NavLink to='/gallery/2011' exact><span>2011</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2007' exact><span>2007</span></NavLink>
+									<NavLink to='/gallery/2007' exact><span>2007</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2003' exact><span>2003</span></NavLink>
+									<NavLink to='/gallery/2003' exact><span>2003</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/1999' exact><span>1999</span></NavLink>
+									<NavLink to='/gallery/1999' exact><span>1999</span></NavLink>
 								</li>
 							</ul>
 							<ul className="mobile">
 								<li>
-									<NavLink to='/galleries/2019/' exact><span>2019</span></NavLink>
+									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2015/' exact><span>2015</span></NavLink>
+									<NavLink to='/gallery/2015/' exact><span>2015</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2013' exact><span>2013</span></NavLink>
+									<NavLink to='/gallery/2013' exact><span>2013</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2011' exact><span>2011</span></NavLink>
+									<NavLink to='/gallery/2011' exact><span>2011</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2009' exact><span>2009</span></NavLink>
+									<NavLink to='/gallery/2009' exact><span>2009</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2007' exact><span>2007</span></NavLink>
+									<NavLink to='/gallery/2007' exact><span>2007</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2005' exact><span>2005</span></NavLink>
+									<NavLink to='/gallery/2005' exact><span>2005</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2003' exact><span>2003</span></NavLink>
+									<NavLink to='/gallery/2003' exact><span>2003</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/2001' exact><span>2001</span></NavLink>
+									<NavLink to='/gallery/2001' exact><span>2001</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/galleries/1999' exact><span>1999</span></NavLink>
+									<NavLink to='/gallery/1999' exact><span>1999</span></NavLink>
 								</li>
 							</ul>
 						</div>

@@ -47,20 +47,20 @@ class AuthorGallery extends Component {
 	}
 
 	goToHomePage = () => {
-		this.props.history.push("/galleries/")
+		this.props.history.push("/gallery/")
 	}
 
 	render() {
 		if (!this.props.location.search || this.props.location.search === '') {
 			return (null)
 		}
-		const year = +this.props.location.pathname.replace('/galleries/', '');
+		const year = + this.props.location.pathname.slice(-4);
 		let authorName = this.props.location.search.replace('?author=', '');
 		const edition = galleryObj.find(edition => edition.year === year);
 		if (authorName.indexOf('&fbclid') !== -1) {
 			authorName = authorName.substring(0, authorName.lastIndexOf('&fbclid')) // fix for facebook links
 			this.props.history.push({
-				pathname: `/galleries/${edition.year}`,
+				pathname: `/gallery/${edition.year}`,
 				search: '?author=' + authorName
 			})
 		}

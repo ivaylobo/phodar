@@ -8,14 +8,14 @@ const participantsList = (props) => {
 			<div className="col-md-6 singleImg" key={`${author.name}_${props.edition}`}>
 				<div className='img-container' id={author.name.replace(/ /g, '_')}>
 					<NavLink to={{
-						pathname: `/galleries/${props.edition}`,
+						pathname: `/gallery/${props.edition}`,
 						search: `?author=${author.name.replace(/ /g, '_')}`
 					}}>
 						<img src={`/${author.urlsMedium[0]}`} alt=""/>
 					</NavLink>
 				</div>
 				<NavLink to={{
-					pathname: `/galleries/${props.edition}`,
+					pathname: `/galley/${props.edition}`,
 					search: `?author=${author.name.replace(/ /g, '_')}`
 				}}>
 					<p className="authorName">{author.name}</p>
