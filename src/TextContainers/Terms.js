@@ -27,7 +27,6 @@ const terms = (props) => {
 						<ul>
 							<li><p>{translate('terms_16')}</p></li>
 							<li><p>{translate('terms_17')}</p></li>
-							<li><p>{translate('terms_18')}</p></li>
 							<li><p>{translate('terms_19')}</p></li>
 						</ul>
 						<p>{translate('terms_20')}</p>
@@ -42,6 +41,7 @@ const terms = (props) => {
 						</ol>
 						<h2>{translate('terms_28')}</h2>
 						<p>{translate('terms_29')}</p>
+						<p>{translate('terms_55')}</p>
 						<h2>{translate('terms_30')}</h2>
 						<p>{translate('terms_31')}</p>
 						<h2>{translate('terms_32')}</h2>

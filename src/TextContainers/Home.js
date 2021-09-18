@@ -29,7 +29,7 @@ const home = (props) => {
 							</div>
 							<div className="links">
 								{/*<NavLink className="buttonLink" to="/events">{translate('Events')}</NavLink>*/}
-								<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>
+								<a href="/gallery/2021" className="buttonLink" aria-disabled={true}>{translate('past editions')}</a>
 								<small className="deadline">{translate('deadline')}</small>
 							</div>
 						</div>
@@ -52,9 +52,19 @@ const home = (props) => {
 							<h2><span>{translate('HOME_MAIN_TEXT')}</span></h2>
 							<h3>{translate('HOME_MAIN_TEXT_1', {cash: <strong>$2.000</strong>})} <br/>
 								{translate('HOME_MAIN_TEXT_9', {cash: <strong>$500</strong>})}</h3>
-							<p className="small-text">{translate('HOME_MAIN_TEXT_2')}
-								<br/>
-								{translate('HOME_MAIN_TEXT_2_1', {fee: <strong>20$</strong>})}</p>
+						</div>
+					</div>
+					<br/>
+					<br/>
+					<div className="row">
+						<div className="col-md-5">
+							<h4>{translate('HOME_MAIN_TEXT_2_4')}</h4>
+							<br/>
+							<br/>
+							<h4>{translate('HOME_MAIN_TEXT_2_3')}</h4>
+						</div>
+						<div className="col-md-7 right-text">
+							<p>{translate('HOME_MAIN_TEXT_2_2')}</p>
 						</div>
 					</div>
 					<div className="row">
@@ -74,7 +84,7 @@ const home = (props) => {
 					</div>
 					<div className="row">
 						<div className="col-md-12">
-							<NavLink onClick={props.hamburgerMobile} className="buttonLink" to='/regulations/'>{translate('enter now')}</NavLink>
+							<NavLink onClick={props.hamburgerMobile} className="buttonLink" to='/gallery/2019'>{translate('past editions')}</NavLink>
 						</div>
 					</div>
 				</div>

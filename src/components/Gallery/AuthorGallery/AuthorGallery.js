@@ -1,5 +1,6 @@
 import React, {Component, Fragment} from "react";
 import galleryObj from "../../Gallery/Galleries";
+import translate from "../../../i18n/translate";
 import Masonry from "react-masonry-component";
 import Slider from "../Slider/Slider";
 
@@ -55,6 +56,13 @@ class AuthorGallery extends Component {
 			return (null)
 		}
 		const year = + this.props.location.pathname.slice(-4);
+		if(!this.props.location.search.includes('?author=')){
+			this.props.history.push({
+				pathname: `/`,
+				search: ''
+			})
+			return false
+		}
 		let authorName = this.props.location.search.replace('?author=', '');
 		const edition = galleryObj.find(edition => edition.year === year);
 		if (authorName.indexOf('&fbclid') !== -1) {
@@ -123,6 +131,7 @@ class AuthorGallery extends Component {
 								}
 
 								<p className="collection-text">{currentAuthor.text}</p>
+								{currentAuthor.translatedText ? <div className="collection-text">{translate(currentAuthor.translatedText, {breakLine: <hr />})}</div> : null}
 
 							</div>
 						</div>
@@ -134,6 +143,6 @@ class AuthorGallery extends Component {
 
 		)
 	}
-}
+};
 
 export default AuthorGallery

@@ -14,19 +14,15 @@ const aboutUs = (props) => {
 						<p>{translate('about_5')}</p>
 						<p>{translate('about_6')}</p>
 						<p>{translate('about_7')}</p>
-						<p>{translate('about_8')}</p>
+						<h2>{translate('about_8')}</h2>
 						<p>{translate('about_9')}</p>
 						<p>{translate('about_10')}</p>
 						<p>{translate('about_11')}</p>
 						<p>{translate('about_12')}</p>
 						<p>{translate('about_13')}</p>
-						<p>{translate('about_14')}</p>
+						<h2>{translate('about_14')}</h2>
 						<p>{translate('about_15')}</p>
 						<p>{translate('about_16')}</p>
-						<p>{translate('about_17')}</p>
-						<p>{translate('about_18')}</p>
-						<p>{translate('about_19')}</p>
-						<p>{translate('about_20')}</p>
 					</div>
 				</div>
 			</div>

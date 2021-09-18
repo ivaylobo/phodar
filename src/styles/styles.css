@@ -1277,6 +1277,11 @@ section .author {
     text-align: left;
 }
 
+.collection-text hr{
+    background: transparent;
+    border-color: transparent;
+}
+
 .black .collection-text {
     color: white;
 }

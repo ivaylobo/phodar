@@ -36,9 +36,9 @@ const header = (props) => {
 						<li>
 							<NavLink onClick={props.hamburgerMobile} to='/terms'>{translate('terms')}</NavLink>
 						</li>
-						<li>
-							<a className="bordered" href="https://entry.phodar.net/">{translate('enter')}</a>
-						</li>
+						{/*<li>*/}
+						{/*	<a className="bordered" href="https://entry.phodar.net/">{translate('enter')}</a>*/}
+						{/*</li>*/}
 						{/*<li>*/}
 						{/*	<NavLink to='/events'>{translate('Events')}</NavLink>*/}
 						{/*</li>*/}
