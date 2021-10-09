@@ -52,6 +52,9 @@ class AuthorGallery extends Component {
 	}
 
 	render() {
+
+		const highResolution = window.devicePixelRatio >= 2 && window.innerWidth < 510;
+
 		if (!this.props.location.search || this.props.location.search === '') {
 			return (null)
 		}
@@ -87,6 +90,13 @@ class AuthorGallery extends Component {
 			return (
 				<div className='m-brick' key={id}>
 					<img src={`/${image}`} alt="" onClick={() => this.slideToImage(id)}/>
+				</div>
+			)
+		});
+		const imagesMedium= currentAuthor.urlsMedium.map((image, id) => {
+			return (
+				<div className='m-brick' key={id}>
+					<img src={`/${image}`} alt="" width="320px" onClick={() => this.slideToImage(id)}/>
 				</div>
 			)
 		});
@@ -126,7 +136,7 @@ class AuthorGallery extends Component {
 										disableImagesLoaded={false} // default false
 										updateOnEachImageLoad={false} // default false and works only if disableImagesLoaded is false
 									>
-										{imagesThumb}
+										{highResolution ? imagesMedium : imagesThumb}
 									</Masonry>
 								}
 

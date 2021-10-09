@@ -28,7 +28,7 @@ const header = (props) => {
 							<NavLink onClick={props.hamburgerMobile} to='/' exact>{translate('series awards')}</NavLink>
 						</li>
 						<li>
-							<NavLink onClick={props.hamburgerMobile} to='/gallery'>{translate('Past editions')}</NavLink>
+							<NavLink onClick={props.hamburgerMobile} to='/gallery'>{translate('editions')}</NavLink>
 						</li>
 						<li>
 							<NavLink onClick={props.hamburgerMobile} to='/aboutUs'>{translate('Who we are')}</NavLink>

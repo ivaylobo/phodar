@@ -2,10 +2,10 @@ import React, {Fragment} from "react";
 import translate from "../i18n/translate";
 import {NavLink} from "react-router-dom";
 import BackgroundSlider from "react-background-slider";
-import img1 from '../assets/images/head_Adel_Pazyar.jpg'
-import img2 from '../assets/images/head_Francesco_Pistilli.jpg'
-import img3 from '../assets/images/head_Hiro_Tanaka.jpg'
-import img4 from '../assets/images/header_Georgios_Makkas.jpg'
+import img1 from '../assets/images/head_1.jpg'
+import img2 from '../assets/images/head_2.jpg'
+import img3 from '../assets/images/head_3.jpg'
+import img4 from '../assets/images/head_4.jpg'
 
 const home = (props) => {
 	return (
@@ -29,62 +29,70 @@ const home = (props) => {
 							</div>
 							<div className="links">
 								{/*<NavLink className="buttonLink" to="/events">{translate('Events')}</NavLink>*/}
-								<a href="/gallery/2021" className="buttonLink" aria-disabled={true}>{translate('past editions')}</a>
-								<small className="deadline">{translate('deadline')}</small>
+								<a href="/gallery/2021" className="buttonLink" aria-disabled={true}>{translate('winners')}</a>
+								{/*<small className="deadline">{translate('deadline')}</small>*/}
 							</div>
 						</div>
 					</div>
 				</div>
-				<div className="opening" style={{display: 'none'}}>
-					<div className="container">
-						<div className="row">
-							<div className="col-md-12">
-								<p>{translate('CALL FOR entries')}</p>
-							</div>
-						</div>
-					</div>
-				</div>
+				{/*<div className="opening">*/}
+				{/*	<div className="container">*/}
+				{/*		<div className="row">*/}
+				{/*			<div className="col-md-12">*/}
+				{/*				<p>{translate('CALL FOR entries')}</p>*/}
+				{/*			</div>*/}
+				{/*		</div>*/}
+				{/*	</div>*/}
+				{/*</div>*/}
 			</div>
 			<div className="mainInfo">
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12">
 							<h2><span>{translate('HOME_MAIN_TEXT')}</span></h2>
-							<h3>{translate('HOME_MAIN_TEXT_1', {cash: <strong>$2.000</strong>})} <br/>
-								{translate('HOME_MAIN_TEXT_9', {cash: <strong>$500</strong>})}</h3>
 						</div>
 					</div>
 					<br/>
 					<br/>
 					<div className="row">
 						<div className="col-md-5">
+							<h3>{translate('HOME_MAIN_TEXT_1', {cash: <strong>$2.000</strong>})} <br/>
+								{translate('Award for Humanistic Photography')} <strong>$500</strong></h3>
+							<br/>
+							<br/>
 							<h4>{translate('HOME_MAIN_TEXT_2_4')}</h4>
 							<br/>
 							<br/>
 							<h4>{translate('HOME_MAIN_TEXT_2_3')}</h4>
-						</div>
-						<div className="col-md-7 right-text">
-							<p>{translate('HOME_MAIN_TEXT_2_2')}</p>
-						</div>
-					</div>
-					<div className="row">
-						<div className="col-md-5">
+							<br/>
+							<br/>
 							<h4>{translate('HOME_MAIN_TEXT_3', {dollar: <strong>$</strong>})}</h4>
-							<br/>
-							<h4>{translate('HOME_MAIN_TEXT_4', {theme: <strong>„{translate('theme')}”</strong>})}</h4>
-							<br/>
-							<h4>{translate('HOME_MAIN_TEXT_5')}</h4>
-							<br/>
-							<h4>{translate('HOME_MAIN_TEXT_6')}</h4>
 						</div>
 						<div className="col-md-7 right-text">
-							<p>{translate('HOME_MAIN_TEXT_7')}</p>
-							<p>{translate('HOME_MAIN_TEXT_8')}</p>
+							<p>{translate('translation14')}</p>
+							<p>{translate('translation15')}</p>
+							<p>{translate('translation16')}</p>
+							<p>{translate('translation17')}{translate('translation18')}</p>
 						</div>
 					</div>
+					{/*<div className="row">*/}
+					{/*	<div className="col-md-5">*/}
+					{/*		<br/>*/}
+					{/*		/!*<h4>{translate('HOME_MAIN_TEXT_4', {theme: <strong>„{translate('theme')}”</strong>})}</h4>*!/*/}
+					{/*		/!*<br/>*!/*/}
+					{/*		/!*<h4>{translate('HOME_MAIN_TEXT_5')}</h4>*!/*/}
+					{/*		/!*<br/>*!/*/}
+					{/*		/!*<h4>{translate('HOME_MAIN_TEXT_6')}</h4>*!/*/}
+					{/*	</div>*/}
+					{/*	<div className="col-md-7 right-text">*/}
+					{/*		<p>{translate('translation15')}</p>*/}
+					{/*		<p>{translate('translation16')}</p>*/}
+					{/*		<p>{translate('translation17')}{translate('translation18')}</p>*/}
+					{/*	</div>*/}
+					{/*</div>*/}
 					<div className="row">
 						<div className="col-md-12">
-							<NavLink onClick={props.hamburgerMobile} className="buttonLink" to='/gallery/2019'>{translate('past editions')}</NavLink>
+							<NavLink onClick={props.hamburgerMobile} className="buttonLink" to='/gallery/2019'>{translate('editions')}</NavLink>
 						</div>
 					</div>
 				</div>
@@ -135,26 +143,12 @@ const home = (props) => {
 				<div className="container">
 					<div className="row">
 						<div className="col-md-12">
-							<h2>{translate('past editions')}</h2>
+							<h2>{translate('editions')}</h2>
 							<h3>{translate('SEE THE FULL GALLERY OF WINNERS & PARTICIPANTS IN PAST EDITIONS')}</h3>
 							<ul className="desktop first">
 								<li>
-									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
+									<NavLink to='/gallery/2021/' exact><span>2021</span></NavLink>
 								</li>
-								<li>
-									<NavLink to='/gallery/2013' exact><span>2013</span></NavLink>
-								</li>
-								<li>
-									<NavLink to='/gallery/2009' exact><span>2009</span></NavLink>
-								</li>
-								<li>
-									<NavLink to='/gallery/2005' exact><span>2005</span></NavLink>
-								</li>
-								<li>
-									<NavLink to='/gallery/2001' exact><span>2001</span></NavLink>
-								</li>
-							</ul>
-							<ul className="desktop second">
 								<li>
 									<NavLink to='/gallery/2015/' exact><span>2015</span></NavLink>
 								</li>
@@ -171,7 +165,27 @@ const home = (props) => {
 									<NavLink to='/gallery/1999' exact><span>1999</span></NavLink>
 								</li>
 							</ul>
+							<ul className="desktop second">
+								<li>
+									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2013' exact><span>2013</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2009' exact><span>2009</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2005' exact><span>2005</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2001' exact><span>2001</span></NavLink>
+								</li>
+							</ul>
 							<ul className="mobile">
+								<li>
+									<NavLink to='/gallery/2021/' exact><span>2021</span></NavLink>
+								</li>
 								<li>
 									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
 								</li>

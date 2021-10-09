@@ -556,7 +556,7 @@ span.Dropdown-arrow, .is-open span.Dropdown-arrow {
 .opening {
     color: #3a3a3a;
     text-align: center;
-    background: rgba(255, 255, 255, 0.72);
+    background: rgba(255, 255, 255, 0.42);
 }
 
 .opening p {
@@ -824,7 +824,7 @@ footer {
 }
 
 .past-editions ul.mobile li:nth-of-type(2), .past-editions ul.desktop.second li:nth-of-type(1) {
-    height: 275px;
+    height: 300px;
     width: 450px;
     background: url("../assets/images/galleries_links/2.jpg") center center no-repeat;
 }
@@ -836,7 +836,7 @@ footer {
 }
 
 .past-editions ul.mobile li:nth-of-type(4), .past-editions ul.desktop.second li:nth-of-type(2) {
-    height: 450px;
+    height: 300px;
     width: 450px;
     background: url("../assets/images/galleries_links/4.jpg") center center no-repeat;
 }
@@ -854,7 +854,7 @@ footer {
 }
 
 .past-editions ul.mobile li:nth-of-type(7), .past-editions ul.desktop.first li:nth-of-type(4) {
-    height: 677px;
+    height: 300px;
     width: 450px;
     background: url("../assets/images/galleries_links/7.jpg") center center no-repeat;
 }
@@ -866,7 +866,7 @@ footer {
 }
 
 .past-editions ul.mobile li:nth-of-type(9), .past-editions ul.desktop.first li:nth-of-type(5) {
-    height: 597px;
+    height: 424px;
     width: 450px;
     background: url("../assets/images/galleries_links/9.jpg") center center no-repeat;
 }
@@ -875,6 +875,11 @@ footer {
     height: 446px;
     width: 450px;
     background: url("../assets/images/galleries_links/10.jpg") center center no-repeat;
+}
+.past-editions ul.mobile li:nth-of-type(11), .past-editions ul.desktop.first li:nth-of-type(6) {
+    height: 446px;
+    width: 450px;
+    background: url("../assets/images/galleries_links/11.jpg") center center no-repeat;
 }
 
 /*............. end of homepage ............... */
@@ -2188,6 +2193,12 @@ footer .social .googlePlus {
 
     .my-gallery-class {
         margin-left: calc(50% - 120px)
+    }
+
+    @media only screen and (-webkit-min-device-pixel-ratio: 2) and (max-width:480px) {
+        .my-gallery-class {
+            margin-left: calc(50% - 170px)
+        }
     }
 
     .desktop,

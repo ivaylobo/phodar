@@ -5077,7 +5077,7 @@ const galleryObj = [
 				title: "Who will save the Rohingya",
 				award: "",
 				country: "Belgium",
-				level: 8,
+				level: 4,
 				urls: [
 					"galleries/2019/Alain_Schroeder/1.JPG",
 					"galleries/2019/Alain_Schroeder/2.JPG",
@@ -7139,7 +7139,7 @@ const galleryObj = [
 				name: "Shahab Naseri",
 				title: "ZIKR ON THE STREETS",
 				text: "This is a religious celebration of the sacred names. These pictures present Zikr – it is a manifestation in Islam, celebrating the birth of Prophet Muhammad. The praying repeat short phrases or prayers. Dervish Sama is a Sufi dance that includes wobbling the head and the body and the aim is going into a state of trance. They believe this is a way to connect with God.",
-				award: "",
+				award: "Diplom",
 				country: "Iran",
 				level: 5,
 				urls: [
@@ -7569,7 +7569,7 @@ const galleryObj = [
 		authors: [
 
 			{
-				name: "Abdillah Heidari",
+				name: "Abdollah Heidari",
 				text: "",
 				translatedText: "translation1",
 				title: "Applying for Marriage",
@@ -7629,7 +7629,7 @@ const galleryObj = [
 				name: "Alain Schroeder",
 				text: "Indonesia’s Sumatran orangutan is under severe threat from the incessant and ongoing depletion and fragmentation of the rainforest.  As palm oil and rubber plantations, logging, road construction, mining, hunting continue to proliferate, orangutans are being forced out of their natural rainforest habitat. I documented the concrete actions undertaken by local organization in Sumatra. Organizations like the OIC (Orangutan Information Center) and their immediate response team HOCRU (Human Orangutan Conflict Response Unit), rescue orangutans in difficulty (lost, injured, captive...) while the SOCP (Sumatran Orangutan Conservation Programme) cares for, rehabilitates and resocializes orangutans at their purpose-built medical facility. These pictures shows them their daily life in the clinic and quarantine center while saving orangutans lives with the final goal to reintroduce them into the wild and to create genetically viable populations in protected forests.",
 				title: "Saving Orangutans",
-				award: "",
+				award: "Diplom",
 				country: "Belgium",
 				level: 5,
 				urls: [
@@ -7707,9 +7707,9 @@ const galleryObj = [
 				text: "",
 				translatedText: "translation2",
 				title: "Coronavirus pandemic in Italy",
-				award: "",
+				award: "Humanistic Photography Prize",
 				country: "Italy",
-				level: 5,
+				level: 2,
 				urls: [
 					"galleries/2021/Alessio_Paduano/1.jpg",
 					"galleries/2021/Alessio_Paduano/2.jpg",
@@ -8019,9 +8019,9 @@ const galleryObj = [
 				name: "Filippo Ferraro",
 				text: "In the last few years, in Salento region, south Italy, a bacterium “Xylella fastidiosa” is killing millions of olive trees. There’s no cure. Xylella caused massive economic and environmental losses, but another, more intimate loss afflicts the lives of the locals who are deeply tied to the olive tree: that relating to their own identity. This work explores how an epidemic in plant world can affect the relationship between a community and its own land, eradicating centuries of history and culture of a people.",
 				title: "Lost Roots",
-				award: "",
+				award: "Diplom",
 				country: "Italy",
-				level: 5,
+				level: 6,
 				urls: [
 					"galleries/2021/Filippo_Ferraro/1.jpg",
 					"galleries/2021/Filippo_Ferraro/2.jpg",
@@ -8281,9 +8281,9 @@ const galleryObj = [
 				text: "",
 				translatedText: "translation7",
 				title: "My 9th floor hideout",
-				award: "",
+				award: "Grand Prix",
 				country: "Venezuela",
-				level: 5,
+				level: 1,
 				urls: [
 					"galleries/2021/Jorge_Luis_Santos_Garcia/1.jpg",
 					"galleries/2021/Jorge_Luis_Santos_Garcia/2.jpg",
@@ -8405,9 +8405,9 @@ const galleryObj = [
 				text: "",
 				translatedText: "translation9",
 				title: "The Circus of Life",
-				award: "",
+				award: "Diplom",
 				country: "Italy",
-				level: 5,
+				level: 8,
 				urls: [
 					"galleries/2021/Marco_Marcone/1.jpg",
 					"galleries/2021/Marco_Marcone/2.jpg",
@@ -8526,7 +8526,7 @@ const galleryObj = [
 			{
 				name: "Penko Skumov",
 				text: "" ,
-				translatedText: "translation9",
+				translatedText: "",
 				title: "Days at Sea",
 				award: "",
 				country: "Bulgaria",
@@ -8697,11 +8697,10 @@ const galleryObj = [
 			{
 				name: "Shayan Haji Najaf",
 				text: "Parand is 8 years old. She was born in Andimeshk, Iran and has been suffering from cancer since she was about 6 years old. Due to the lack of a suitable hospital in the city where she lives, Parand has to travel 150 kilometers to Ahvaz, the capital of Khuzestan province, for treatment, and to undergo her treatment at Baqaei Hospital. Parand, like many girls in her age, dreamed of one day wearing a long pink dress and wearing a crown and shining like a princess in a pink dress. Parand's wish was fulfilled with the help of the charity in Ahvaz. Parand became a pink princess by wearing a long pink dress and a crown in the days when her physical condition was not good. After her wish came true, she returned to the hospital to prepare for the transplant. Parand is currently undergoing a transplant and is completing her treatment at Baqaei Hospital in quarantine.",
-				// translatedText: "translation7",
 				title: "Pink Princess",
-				award: "",
+				award: "Diplom",
 				country: "Iran",
-				level: 5,
+				level: 7,
 				urls: [
 					"galleries/2021/Shayan_Haji_Najaf/1.jpg",
 					"galleries/2021/Shayan_Haji_Najaf/2.jpg",
