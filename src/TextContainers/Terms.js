@@ -16,18 +16,20 @@ const terms = (props) => {
 						<p>{translate('terms_5', {link: <NavLink to="/">phodar.net</NavLink>})}</p>
 						<h2>{translate('terms_6')}</h2>
 						<p>{translate('terms_7')}</p>
-						<p>{translate('terms_8', {link: <NavLink to="/">phodar.net</NavLink>})}</p>
+						{/*<p>{translate('terms_8', {link: <NavLink to="/">phodar.net</NavLink>})}</p>*/}
 						<h2>{translate('terms_9')}</h2>
 						<p>{translate('terms_10')}</p>
 						<p>{translate('terms_11', {link: <NavLink to="/">phodar.net</NavLink>})}</p>
+						<p>{translate('terms_11_1')}</p>
 						<h2>{translate('terms_12')}</h2>
 						<p>{translate('terms_13', {link: <NavLink to="/">phodar.net</NavLink>})}</p>
 						<p>{translate('terms_14')}</p>
 						<p>{translate('terms_15')}</p>
 						<ul>
-							<li><p>{translate('terms_16')}</p></li>
-							<li><p>{translate('terms_17')}</p></li>
-							<li><p>{translate('terms_19')}</p></li>
+							<li><p><strong>{translate('terms_16')}</strong></p></li>
+							<li><p><strong>{translate('terms_17')}</strong></p></li>
+							<li><p><strong>{translate('terms_19')}</strong></p></li>
+							<li><p><strong>{translate('terms_19_1')}</strong></p></li>
 						</ul>
 						<p>{translate('terms_20')}</p>
 						<p>{translate('terms_21')}</p>

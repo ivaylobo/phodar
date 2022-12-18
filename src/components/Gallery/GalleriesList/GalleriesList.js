@@ -83,6 +83,7 @@ class GalleriesList extends Component {
 			} else if (guestCondition) {
 				guests.push(author)
 			}
+			return false;
 
 		})
 

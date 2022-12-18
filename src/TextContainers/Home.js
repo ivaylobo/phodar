@@ -18,7 +18,7 @@ const home = (props) => {
 					<div className="row">
 						<div className="col-md-12 main">
 							<div className="top">
-								<h4>11</h4>
+								<h4>12</h4>
 								<div className="next"><span>{translate('edition')}</span></div>
 							</div>
 							<h3>{translate('international photo competition')}</h3>
@@ -29,8 +29,9 @@ const home = (props) => {
 							</div>
 							<div className="links">
 								{/*<NavLink className="buttonLink" to="/events">{translate('Events')}</NavLink>*/}
-								<a href="/gallery/2021" className="buttonLink" aria-disabled={true}>{translate('winners')}</a>
-								{/*<small className="deadline">{translate('deadline')}</small>*/}
+								{/*<a href="/gallery/2021" className="buttonLink" aria-disabled={true}>{translate('winners')}</a>*/}
+								<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>
+								<small className="deadline">{translate('deadline')}</small>
 							</div>
 						</div>
 					</div>
@@ -50,30 +51,30 @@ const home = (props) => {
 					<div className="row">
 						<div className="col-md-12">
 							<h2><span>{translate('HOME_MAIN_TEXT')}</span></h2>
+							<h3>{translate('HOME_MAIN_TEXT_1', {cash: <strong>$1.500</strong>})} <br/>
+								{translate('Award for Humanistic Photography', {cash: <strong>$500</strong>})} <br />
+								{translate('HOME_MAIN_TEXT_9', {cash: <strong>$500</strong>})}</h3>
+							<p className="small-text">{translate('deadline')}</p>
 						</div>
 					</div>
 					<br/>
-					<br/>
 					<div className="row">
 						<div className="col-md-5">
-							<h3>{translate('HOME_MAIN_TEXT_1', {cash: <strong>$2.000</strong>})} <br/>
-								{translate('Award for Humanistic Photography')} <strong>$500</strong></h3>
+							{/*<h4>{translate('HOME_MAIN_TEXT_3')}</h4>*/}
 							<br/>
+							<h4>{translate('HOME_MAIN_TEXT_4')}</h4>
 							<br/>
-							<h4>{translate('HOME_MAIN_TEXT_2_4')}</h4>
+							<h4>{translate('HOME_MAIN_TEXT_5')}</h4>
 							<br/>
-							<br/>
-							<h4>{translate('HOME_MAIN_TEXT_2_3')}</h4>
-							<br/>
-							<br/>
-							<h4>{translate('HOME_MAIN_TEXT_3', {dollar: <strong>$</strong>})}</h4>
+							<h4>{translate('HOME_MAIN_TEXT_6')}</h4>
 						</div>
 						<div className="col-md-7 right-text">
-							<p>{translate('translation14')}</p>
-							<p>{translate('translation15')}</p>
-							<p>{translate('translation16')}</p>
-							<p>{translate('translation17')}{translate('translation18')}</p>
+							<p>{translate('terms_4')}</p>
+
 						</div>
+						{/*<div className="col-md-12">*/}
+						{/*	<h3>{translate('theme12')}</h3>*/}
+						{/*</div>*/}
 					</div>
 					{/*<div className="row">*/}
 					{/*	<div className="col-md-5">*/}
@@ -92,7 +93,7 @@ const home = (props) => {
 					{/*</div>*/}
 					<div className="row">
 						<div className="col-md-12">
-							<NavLink onClick={props.hamburgerMobile} className="buttonLink" to='/gallery/2019'>{translate('editions')}</NavLink>
+							<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>
 						</div>
 					</div>
 				</div>

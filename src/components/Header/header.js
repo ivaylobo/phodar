@@ -9,7 +9,7 @@ const header = (props) => {
 	return (
 			<header className={props.additionalClass}>
 				<div className="headerRow">
-					<NavLink className='logo' to='/'><img src={logo}/><span>Phodar biennial</span></NavLink>
+					<NavLink className='logo' to='/'><img alt="home" src={logo}/><span>Phodar biennial</span></NavLink>
 					<div id="nav-trigger">
 						<div id="close-nav" className={props.switchMobileOpened ? 'active' : ''} onClick={props.hamburgerMobile}>
 							<div></div>
@@ -25,7 +25,7 @@ const header = (props) => {
 					</div>
 					<ul className={props.switchMobileOpened ? 'active main-links' : 'main-links'}>
 						<li>
-							<NavLink onClick={props.hamburgerMobile} to='/' exact>{translate('series awards')}</NavLink>
+							<NavLink onClick={props.hamburgerMobile} to='/' exact>{translate('home')}</NavLink>
 						</li>
 						<li>
 							<NavLink onClick={props.hamburgerMobile} to='/gallery'>{translate('editions')}</NavLink>
@@ -36,9 +36,9 @@ const header = (props) => {
 						<li>
 							<NavLink onClick={props.hamburgerMobile} to='/terms'>{translate('terms')}</NavLink>
 						</li>
-						{/*<li>*/}
-						{/*	<a className="bordered" href="https://entry.phodar.net/">{translate('enter')}</a>*/}
-						{/*</li>*/}
+						<li>
+							<a className="bordered" href="https://entry.phodar.net/">{translate('enter')}</a>
+						</li>
 						{/*<li>*/}
 						{/*	<NavLink to='/events'>{translate('Events')}</NavLink>*/}
 						{/*</li>*/}

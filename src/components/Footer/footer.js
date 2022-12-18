@@ -14,11 +14,11 @@ const footer = (props) => {
 						</div>
 						<div className="social">
 							<h4>Follow us</h4>
-							<a className="facebook" target="_blanck" href="https://www.facebook.com/phodar.biennial"></a>
+							<a className="facebook" target="_blanck" href="https://www.facebook.com/phodar.biennial"> </a>
 						</div>
-						<div className="copy float-right"><span>© 1999-2021 Phodar. All Rights Reserved.</span> <a className="darina"
+						<div className="copy float-right"><span>© 1999-2022 Phodar. All Rights Reserved.</span> <a className="darina"
 																														href="https://www.behance.net/darinabojinova"
-																														target="_blanck"></a></div>
+																														target="_blanck"> </a></div>
 						<div className="clear"></div>
 					</div>
 				</div>

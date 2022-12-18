@@ -1,11 +1,11 @@
 import React, {Component} from "react";
 import galleryObj from "./Galleries";
 import translate from "../../i18n/translate";
-import {NavLink, useHistory} from "react-router-dom";
+import {NavLink} from "react-router-dom";
 import {Route} from "react-router";
 import EditionGallery from './EditionGallery/EditionGallery';
 import GalleriesList from "./GalleriesList/GalleriesList";
-import { withRouter, BrowserRouter } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 
 class GalleriesComponent extends Component {
 
