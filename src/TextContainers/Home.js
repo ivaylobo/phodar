@@ -28,10 +28,10 @@ const home = (props) => {
 								<h1>{translate('theme')}</h1>
 							</div>
 							<div className="links">
-								{/*<NavLink className="buttonLink" to="/events">{translate('Events')}</NavLink>*/}
+								<NavLink className="buttonLink" to="/gallery/2021">{translate('past editions')}</NavLink>
 								{/*<a href="/gallery/2021" className="buttonLink" aria-disabled={true}>{translate('winners')}</a>*/}
-								<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>
-								<small className="deadline">{translate('deadline')}</small>
+								{/*<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>*/}
+								{/*<small className="deadline">{translate('deadline')}</small>*/}
 							</div>
 						</div>
 					</div>
@@ -54,7 +54,7 @@ const home = (props) => {
 							<h3>{translate('HOME_MAIN_TEXT_1', {cash: <strong>$1.500</strong>})} <br/>
 								{translate('Award for Humanistic Photography', {cash: <strong>$500</strong>})} <br />
 								{translate('HOME_MAIN_TEXT_9', {cash: <strong>$500</strong>})}</h3>
-							<p className="small-text">{translate('deadline')}</p>
+							{/*<p className="small-text">{translate('deadline')}</p>*/}
 						</div>
 					</div>
 					<br/>
@@ -69,7 +69,11 @@ const home = (props) => {
 							<h4>{translate('HOME_MAIN_TEXT_6')}</h4>
 						</div>
 						<div className="col-md-7 right-text">
+							<h3>{translate('HOME_MAIN_TEXT_2_4')}</h3>
 							<p>{translate('terms_4')}</p>
+							<p>{translate('terms_4_1')}</p>
+							<p>{translate('terms_4_2')}</p>
+							<p>{translate('terms_4_3')}</p>
 
 						</div>
 						{/*<div className="col-md-12">*/}
@@ -93,7 +97,8 @@ const home = (props) => {
 					{/*</div>*/}
 					<div className="row">
 						<div className="col-md-12">
-							<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>
+							<NavLink className="buttonLink" to="/gallery/2021">{translate('past editions')}</NavLink>
+							{/*<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>*/}
 						</div>
 					</div>
 				</div>

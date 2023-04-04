@@ -2177,6 +2177,10 @@ footer .social .googlePlus {
         text-align: center;
     }
 
+    a img{
+        pointer-events: none;
+    }
+
     .row-wrapper.second .image-wrapper:nth-of-type(1) {
         margin: 0;
         max-width: 100%;

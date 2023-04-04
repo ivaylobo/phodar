@@ -41,6 +41,15 @@ class App extends Component {
 
 
 	componentDidMount() {
+		const anc = document.getElementsByTagName('a');
+		const body = document.getElementsByTagName('body');
+
+		document.addEventListener('click', (event)=>{
+			if(event.target.tagName === 'A' || event.target.parentNode.tagName === 'A'){
+				localStorage.setItem('hasHistory', 1);
+			}
+		});
+
 		const isScrolledDown = () => {
 			if(window.pageYOffset !== 0 && this.state.scrolledDown) {
 				this.setState(prevSpate => ({

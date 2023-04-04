@@ -24,7 +24,14 @@ class AuthorGallery extends Component {
 			selectedItem: 0
 		})
 
-		this.props.history.goBack();
+		if(localStorage.getItem('hasHistory')){  // if it's not external link, go bak
+			this.props.history.goBack();
+		}
+
+		else{ // else go to gallery page
+			this.props.history.push('/gallery/');
+			localStorage.removeItem('hasHistory');
+		}
 
 	}
 
