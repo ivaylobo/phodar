@@ -41,8 +41,6 @@ class App extends Component {
 
 
 	componentDidMount() {
-		const anc = document.getElementsByTagName('a');
-		const body = document.getElementsByTagName('body');
 
 		document.addEventListener('click', (event)=>{
 			if(event.target.tagName === 'A' || event.target.parentNode.tagName === 'A'){

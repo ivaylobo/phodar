@@ -466,6 +466,7 @@ export default {
 		"terms_4_1": "Reference:",
 		"terms_4_2": "Genesis 1:26: „And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. ”",
 		"terms_4_3": "Genesis 1:27: „So God created man in his own image, in the image of God created he him; male and female created he them.”",
+		"terms_4_5": "A jury consisting of Alexander Nishkov, Donald Weber, Ivaylo Bozhinov, Ivan Zahariev, Konstantin Zaikov, Plamen Shulikov, Rafaelo Kazakov, Rosen Kolarov, and Yordan Evtimov will choose the prizes and the participants in the exhibition of Phodar Biennial 2023. The exhibition will be presented on 06.06.2023 at 18:00, at the Museum of Art from the Socialist Period. There the awards will be announced. The information will also be published on our website.",
 		"terms_5": "By submitting your entry on {link}, you agree to all of the terms and conditions listed here.",
 		"terms_6": "General conditions",
 		"terms_7": "PHODAR Biennial Series Awards competition is open to both professional and amateur photographers over 18 years of age (or the age of majority in their respective country). There is no limitation regarding entrant’s country of origin and/or citizenship.",

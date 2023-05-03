@@ -69,11 +69,7 @@ const home = (props) => {
 							<h4>{translate('HOME_MAIN_TEXT_6')}</h4>
 						</div>
 						<div className="col-md-7 right-text">
-							<h3>{translate('HOME_MAIN_TEXT_2_4')}</h3>
-							<p>{translate('terms_4')}</p>
-							<p>{translate('terms_4_1')}</p>
-							<p>{translate('terms_4_2')}</p>
-							<p>{translate('terms_4_3')}</p>
+							<p>{translate('terms_4_5')}</p>
 
 						</div>
 						{/*<div className="col-md-12">*/}

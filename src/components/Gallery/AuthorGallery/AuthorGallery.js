@@ -29,7 +29,7 @@ class AuthorGallery extends Component {
 		}
 
 		else{ // else go to gallery page
-			this.props.history.push('/gallery/');
+			this.props.history.push('/');
 			localStorage.removeItem('hasHistory');
 		}
 
