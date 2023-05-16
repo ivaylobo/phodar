@@ -820,66 +820,72 @@ footer {
 .past-editions ul.mobile li:nth-of-type(1), .past-editions ul.desktop.first li:nth-of-type(1) {
     width: 450px;
     height: 300px;
-    background: url("../assets/images/galleries_links/1.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/23.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(2), .past-editions ul.desktop.second li:nth-of-type(1) {
     height: 300px;
     width: 450px;
-    background: url("../assets/images/galleries_links/2.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/21.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(3), .past-editions ul.desktop.first li:nth-of-type(2) {
     height: 300px;
     width: 450px;
-    background: url("../assets/images/galleries_links/3.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/19.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(4), .past-editions ul.desktop.second li:nth-of-type(2) {
     height: 300px;
     width: 450px;
-    background: url("../assets/images/galleries_links/4.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/15.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(5), .past-editions ul.desktop.first li:nth-of-type(3) {
     height: 291px;
     width: 450px;
-    background: url("../assets/images/galleries_links/5.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/13.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(6), .past-editions ul.desktop.second li:nth-of-type(3) {
     height: 300px;
     width: 450px;
-    background: url("../assets/images/galleries_links/6.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/11.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(7), .past-editions ul.desktop.first li:nth-of-type(4) {
     height: 300px;
     width: 450px;
-    background: url("../assets/images/galleries_links/7.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/09.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(8), .past-editions ul.desktop.second li:nth-of-type(4) {
     height: 450px;
     width: 450px;
-    background: url("../assets/images/galleries_links/8.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/07.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(9), .past-editions ul.desktop.first li:nth-of-type(5) {
     height: 424px;
     width: 450px;
-    background: url("../assets/images/galleries_links/9.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/05.jpg") center center no-repeat;
 }
 
 .past-editions ul.mobile li:nth-of-type(10), .past-editions ul.desktop.second li:nth-of-type(5) {
     height: 446px;
     width: 450px;
-    background: url("../assets/images/galleries_links/10.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/03.jpg") center center no-repeat;
 }
 .past-editions ul.mobile li:nth-of-type(11), .past-editions ul.desktop.first li:nth-of-type(6) {
     height: 446px;
     width: 450px;
-    background: url("../assets/images/galleries_links/11.jpg") center center no-repeat;
+    background: url("../assets/images/galleries_links/01.jpg") center center no-repeat;
+}
+
+.past-editions ul.mobile li:nth-of-type(11), .past-editions ul.desktop.second li:nth-of-type(6){
+    height: 446px;
+    width: 450px;
+    background: url("../assets/images/galleries_links/99.jpg") center center no-repeat;
 }
 
 /*............. end of homepage ............... */

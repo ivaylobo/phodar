@@ -28,7 +28,7 @@ const home = (props) => {
 								<h1>{translate('theme')}</h1>
 							</div>
 							<div className="links">
-								<NavLink className="buttonLink" to="/gallery/2021">{translate('past editions')}</NavLink>
+								<NavLink className="buttonLink" to="/gallery/2023">{translate('winners')}</NavLink>
 								{/*<a href="/gallery/2021" className="buttonLink" aria-disabled={true}>{translate('winners')}</a>*/}
 								{/*<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>*/}
 								{/*<small className="deadline">{translate('deadline')}</small>*/}
@@ -148,6 +148,27 @@ const home = (props) => {
 							<h2>{translate('editions')}</h2>
 							<h3>{translate('SEE THE FULL GALLERY OF WINNERS & PARTICIPANTS IN PAST EDITIONS')}</h3>
 							<ul className="desktop first">
+
+								<li>
+									<NavLink to='/gallery/2023/' exact><span>2023</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2013' exact><span>2013</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2009' exact><span>2009</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2005' exact><span>2005</span></NavLink>
+								</li>
+								<li>
+									<NavLink to='/gallery/2001' exact><span>2001</span></NavLink>
+								</li>
+							</ul>
+							<ul className="desktop second">
 								<li>
 									<NavLink to='/gallery/2021/' exact><span>2021</span></NavLink>
 								</li>
@@ -165,23 +186,6 @@ const home = (props) => {
 								</li>
 								<li>
 									<NavLink to='/gallery/1999' exact><span>1999</span></NavLink>
-								</li>
-							</ul>
-							<ul className="desktop second">
-								<li>
-									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
-								</li>
-								<li>
-									<NavLink to='/gallery/2013' exact><span>2013</span></NavLink>
-								</li>
-								<li>
-									<NavLink to='/gallery/2009' exact><span>2009</span></NavLink>
-								</li>
-								<li>
-									<NavLink to='/gallery/2005' exact><span>2005</span></NavLink>
-								</li>
-								<li>
-									<NavLink to='/gallery/2001' exact><span>2001</span></NavLink>
 								</li>
 							</ul>
 							<ul className="mobile">
