@@ -190,13 +190,16 @@ const home = (props) => {
 							</ul>
 							<ul className="mobile">
 								<li>
+									<NavLink to='/gallery/2023/' exact><span>2023</span></NavLink>
+								</li>
+								<li>
 									<NavLink to='/gallery/2021/' exact><span>2021</span></NavLink>
 								</li>
 								<li>
 									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
 								</li>
 								<li>
-									<NavLink to='/gallery/2015/' exact><span>2015</span></NavLink>
+									<NavLink to='/gallery/2015' exact><span>2015</span></NavLink>
 								</li>
 								<li>
 									<NavLink to='/gallery/2013' exact><span>2013</span></NavLink>
@@ -209,9 +212,6 @@ const home = (props) => {
 								</li>
 								<li>
 									<NavLink to='/gallery/2007' exact><span>2007</span></NavLink>
-								</li>
-								<li>
-									<NavLink to='/gallery/2005' exact><span>2005</span></NavLink>
 								</li>
 								<li>
 									<NavLink to='/gallery/2003' exact><span>2003</span></NavLink>
