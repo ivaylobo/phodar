@@ -18,7 +18,7 @@ class AuthorGallery extends Component {
 	}
 
 
-	goBack = () => {
+	goBack = (year) => {
 		this.setState({
 			showSlider: false,
 			selectedItem: 0
@@ -26,10 +26,11 @@ class AuthorGallery extends Component {
 
 		if(localStorage.getItem('hasHistory')){  // if it's not external link, go bak
 			this.props.history.goBack();
+			localStorage.removeItem('hasHistory');
 		}
 
 		else{ // else go to gallery page
-			this.props.history.push('/');
+			this.props.history.push(`/gallery/${year}`);
 			localStorage.removeItem('hasHistory');
 		}
 

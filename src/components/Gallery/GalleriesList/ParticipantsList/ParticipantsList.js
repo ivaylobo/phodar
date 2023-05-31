@@ -4,17 +4,20 @@ import {NavLink} from "react-router-dom";
 
 const participantsList = (props) => {
 	const participantsHTML = props.participants.map(author => {
+		const addHistory = () => {
+			localStorage.setItem('hasHistory', 1);
+		};
 		return (author.urls.length ? (
 			<div className="col-md-6 singleImg" key={`${author.name}_${props.edition}`}>
 				<div className='img-container' id={author.name.replace(/ /g, '_')}>
-					<NavLink to={{
+					<NavLink onClick={addHistory} to={{ // to know if the user comes from the website on this gallery
 						pathname: `/gallery/${props.edition}`,
 						search: `?author=${author.name.replace(/ /g, '_')}`
 					}}>
 						<img src={`/${author.urlsMedium[0]}`} alt=""/>
 					</NavLink>
 				</div>
-				<NavLink to={{
+				<NavLink onClick={addHistory} to={{
 					pathname: `/galley/${props.edition}`,
 					search: `?author=${author.name.replace(/ /g, '_')}`
 				}}>

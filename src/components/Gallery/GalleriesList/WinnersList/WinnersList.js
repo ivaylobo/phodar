@@ -7,6 +7,9 @@ const winnersList = (props) => {
 	const winnersHTML = props.winners.map((author, index) => {
 		const award = translate(author.award);
 		const counter = (props.allWinnersLength - index) % 3;
+		const addHistory = () => { // to know if the user comes from the website on this gallery
+			localStorage.setItem('hasHistory', 1);
+		};
 		return (
 			author.urls.length > 1 ?
 				(<div className="authorShort" key={`${author.name.replace(/ /g, '_')}_${props.edition}`}>
@@ -18,7 +21,7 @@ const winnersList = (props) => {
 										{author.urlsThumb.map((picture, ind) => {
 
 											const authorInfo = ind === 0 && counter !== 0 ? <div className="authorInfo">
-												<NavLink to={{
+												<NavLink onClick={addHistory} to={{
 													pathname: `/gallery/${props.edition}`,
 													search: `?author=${author.name.replace(/ /g, '_')}`
 												}}>
@@ -27,21 +30,21 @@ const winnersList = (props) => {
 												{ind === 0 ? <p className='authorCountry'>{translate(author.country)}</p> : null}
 											</div> : null;
 											const smallImage = ind !== counter + 1 && (counter !== 2 || ind !== 0) ? (
-												<NavLink to={{
+												<NavLink onClick={addHistory} to={{
 													pathname: `/gallery/${props.edition}`,
 													search: `?author=${author.name.replace(/ /g, '_')}`
 												}}>
 													<img src={`/${picture}`} width="230px" alt=""/>
 												</NavLink>) : null;
 											const authorName = ind === 0 && counter === 0 ?
-												<NavLink to={{
+												<NavLink onClick={addHistory} to={{
 													pathname: `/gallery/${props.edition}`,
 													search: `?author=${author.name.replace(/ /g, '_')}`
 												}}>
 													<p className="authorName">{author.name}</p>
 												</NavLink> : null;
 											const bigImage = ind === counter + 1 || (counter === 2 && ind === 0) ? (
-												<NavLink to={{
+												<NavLink onClick={addHistory} to={{
 													pathname: `/gallery/${props.edition}`,
 													search: `?author=${author.name.replace(/ /g, '_')}`
 												}}>
