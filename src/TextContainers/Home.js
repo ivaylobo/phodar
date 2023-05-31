@@ -28,7 +28,7 @@ const home = (props) => {
 								<h1>{translate('theme')}</h1>
 							</div>
 							<div className="links">
-								<NavLink className="buttonLink" to="/gallery/2023">{translate('winners')}</NavLink>
+								<NavLink className="buttonLink" to="/gallery/2021">{translate('past editions')}</NavLink>
 								{/*<a href="/gallery/2021" className="buttonLink" aria-disabled={true}>{translate('winners')}</a>*/}
 								{/*<a href="https://entry.phodar.net/" className="buttonLink">{translate('enter now')}</a>*/}
 								{/*<small className="deadline">{translate('deadline')}</small>*/}
@@ -70,6 +70,7 @@ const home = (props) => {
 						</div>
 						<div className="col-md-7 right-text">
 							<p>{translate('terms_4_5')}</p>
+							<p>{translate('terms_4_6')}</p>
 
 						</div>
 						{/*<div className="col-md-12">*/}
@@ -102,9 +103,12 @@ const home = (props) => {
 			<div className="logo-sofia">
 				<div className="container">
 					<div className="row">
-						<div className="col-md-12">
+						<div className="col-md-12 logos">
 							<div className="logo-container">
 								<h3>{translate('sofia_logo')}</h3>
+							</div>
+							<div className="logo-container italia">
+								<h3>{translate('it_ins')}</h3>
 							</div>
 						</div>
 					</div>
@@ -150,7 +154,8 @@ const home = (props) => {
 							<ul className="desktop first">
 
 								<li>
-									<NavLink to='/gallery/2023/' exact><span>2023</span></NavLink>
+									{/*<NavLink to='/gallery/2023/' exact><span>2023</span></NavLink>*/}
+									<h3>2023 <br /> coming soon</h3>
 								</li>
 								<li>
 									<NavLink to='/gallery/2019/' exact><span>2019</span></NavLink>
@@ -190,7 +195,8 @@ const home = (props) => {
 							</ul>
 							<ul className="mobile">
 								<li>
-									<NavLink to='/gallery/2023/' exact><span>2023</span></NavLink>
+									{/*<NavLink to='/gallery/2023/' exact><span>2023</span></NavLink>*/}
+									<h3>2023 <br /> coming soon</h3>
 								</li>
 								<li>
 									<NavLink to='/gallery/2021/' exact><span>2021</span></NavLink>
