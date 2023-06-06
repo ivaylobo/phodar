@@ -565,5 +565,6 @@ export default {
 		"translation_23_20": "In Belfast Protestant Unionists and Catholic Nationalists live in homogeneous neighborhoods that are divided by walls till today. But they are more similar than both like to admit. While they still stick to their own symbols of identity and tradition, wear the same clothes, same haircuts, drink the same beer, take the same drugs and have often the same worries such as violence, unemployment, social discrimination and therefore, lack of prospects. this is not a religious but a social conflict.",
 		"translation_23_21": "For the writer Fyodor Dostoevsky, the questions of man, his soul, faith, doubts, light and dark sides, likeness to God are the main questions in his work. The hero of my story once violated the highest law, killed his wife, ended up in prison. After 20 years, he returned to his old home. I met him in the last year of his life, when doubt and conscience became his constant companions. It was impossible to fix anything and now all he dreamed about was to see his wife again and ask her forgiveness.",
 		"it_ins":"In collaboration with the Italian Cultural Institute",
+		"selected": "Selected",
 	}
 }
