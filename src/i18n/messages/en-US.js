@@ -380,7 +380,7 @@ const messages = {
         "HOST": "Host",
         // "EVENTS": "<h1><strong>events</strong></h1><h2>Calendar of the 10th PHODAR BIENNIAL:</h2><p><span>Deadline for applications – February 28th, 2017</span> (date of arrival of the package at the organizers)</p><h4>International jury</h4><p><span>Jury session – 12-13 March 2017</span></p><h4>Exhibition</h4><p><span>28 April – 28 May 2017 at Iliya Beshkov Gallery in Pleven, Bulgaria. Opening: April 28th at 6:30pm The exhibition will be accompanied by solo and group exhibitions and a seminar on the topic \"Fact, fiction, truth\".</span></p>",
         "HOME_MAIN_TEXT": "PHODAR SERIES AWARDS",
-        "HOME_MAIN_TEXT_1": "2023 Grand Prize {cash}",
+        "HOME_MAIN_TEXT_1": "2025 Grand Prize {cash}",
         "HOME_MAIN_TEXT_2": "DEADLINE IS JULY 1ST, 2021," ,
         "HOME_MAIN_TEXT_2_1": "ENTRY FEE: {fee}" ,
         "HOME_MAIN_TEXT_2_3": "The official opening of the exhibition will be on October 7 at 6 pm at the Museum of Socialist Art in Sofia, \"7 Lachezar Stanchev Str.\" " ,

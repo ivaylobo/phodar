@@ -66,7 +66,7 @@ const Home = () => {
                     </div>
                     <div className="row">
                         <div className="col-md-12">
-                            <a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">{translate({id: 'enter'})}</a>
+                            <a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">{translate({id: 'enter now'})}</a>
                         </div>
                     </div>
                 </div>
