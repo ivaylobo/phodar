@@ -1,0 +1,830 @@
+.summary {
+    color: #fff;
+    position: relative;
+}
+
+.mobile{
+    display: none;
+}
+
+.summary #ReactBackgroundSlider > figure {
+    background-position: bottom right;
+}
+
+.summary:before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+
+}
+
+.summary .container {
+    position: relative;
+    z-index: 2;
+}
+
+.summary h4 {
+    font-size: 96px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0.7;
+}
+
+.summary .next {
+    display: block;
+    vertical-align: middle;
+}
+
+.summary span {
+    font-size: 55px;
+    vertical-align: bottom;
+    display: inline-block;
+    line-height: 40px;
+}
+
+.summary span:nth-of-type(1) {
+    font-size: 20px;
+    font-weight: normal;
+    line-height: 33px;
+    padding-left: 3px;
+    text-transform: uppercase;
+}
+
+.summary .top {
+    padding-top: 200px;
+    font-family: 'Conv_Intro', Sans-Serif;
+    font-weight: normal;
+    opacity: 0.3;
+}
+
+.summary .bottom {
+    border: 1px solid rgba(255, 255, 255, 0.65);
+    display: inline-block;
+    padding: 10px 45px 15px;
+    margin: 20px 0 15px;
+    width: 100%;
+}
+
+.summary .links {
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+.summary h3 {
+    font-size: 24px;
+    display: inline-block;
+    vertical-align: -13px;
+    margin: 0;
+    font-weight: normal;
+    font-family: "Intro_Book", Sans-Serif;
+}
+
+.summary h5 {
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.54);
+    margin: 0;
+    display: block;
+    text-transform: uppercase;
+    font-family: "Conv_Intro", sans-serif;
+}
+
+.summary h1 {
+    color: #F7F7F7;
+    font-size: 47px;
+    margin: 0;
+    text-transform: uppercase;
+    font-family: "Conv_Intro", sans-serif;
+    padding-bottom: 0;
+    display: inline-block;
+}
+
+.summary .main {
+    position: relative;
+}
+
+.mainInfo {
+    text-align: left;
+    margin: 40px 0 0;
+}
+
+.mainInfo ul {
+    padding: 0;
+}
+
+.gallery h2 {
+    margin: 0 0 30px;
+    font-size: 36px;
+    padding-top: 50px;
+}
+
+.mainInfo h2, .mainInfo h3 {
+    text-align: left;
+}
+
+.mainInfo h2 {
+    font-size: 51px;
+    letter-spacing: 0;
+    line-height: 61px;
+    color: #191A29;
+    margin: 60px 0 10px;
+}
+
+.gallery h2 {
+    margin: 0 0 15px;
+    padding-top: 20px
+}
+
+.mainInfo h4 {
+    margin: 0;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 24px;
+    color: #15151F;
+    padding-right: 60px;
+    text-align: left;
+}
+
+.mainInfo h4 strong {
+    font-family: "Intro_Book", Sans-Serif;
+}
+
+.mainInfo h3 {
+    font-weight: 900;
+    text-transform: unset;
+    font-family: "Nunito", Sans-Serif;
+    font-size: 30px;
+    line-height: 1.3;
+    margin: 0 0 10px;
+}
+
+.mainInfo h3 strong {
+    font-weight: 900;
+    color: #D23C3B;
+}
+
+.mainInfo .buttonLink {
+    color: #BB1817;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    background: transparent;
+    border: 1px solid #BB1817;
+    margin: 28px 0 84px;
+}
+
+.mainInfo .rightText {
+    padding-left: 40px;
+}
+
+.mainInfo .rightText p {
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 25px;
+    color: #1E1E1E;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+.mainInfo p.award {
+    margin: 15px 0;
+}
+
+.mainInfo p strong {
+    color: #000;
+}
+
+.partners {
+    margin-top: 30px;
+}
+
+.partner-info img {
+    display: inline-block;
+    margin: 10px;
+    width: 80px;
+}
+
+.award {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-style: italic;
+    color: #8b8b8b;
+    display: inline-block;
+    padding: 0 15px;
+}
+
+.award span:first-of-type {
+    color: #000;
+}
+
+.mainInfo a {
+    text-transform: uppercase;
+    color: #a1a1a1;
+    font-size: 18px;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    font-family: 'Conv_Intro';
+}
+
+.mainInfo a span {
+    color: #c12747;
+}
+
+.accept-cookies {
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    display: inline-block;
+    font-family: 'Conv_Intro';
+    cursor: pointer;
+    background: rgba(188, 24, 24, 1);
+    color: #fff;
+    text-decoration: none;
+    opacity: 0.8;
+    border: none;
+}
+
+.buttonLink {
+    color: #F7F7F7;
+    font-family: 'Conv_Intro';
+    font-size: 23px;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
+    display: inline-block;
+    background: #D23C3B;
+    padding: 20px 70px;
+    margin-top: 120px;
+}
+
+.deadline {
+    display: block;
+    color: rgba(255, 255, 255, 0.6);
+    margin-top: 14px;
+}
+
+.buttonLink:hover {
+    background: rgba(188, 24, 24, 0.8);
+    color: #fff;
+    text-decoration: none;
+}
+
+.accept-cookies {
+    color: #4d4d4d;
+    background: #fff;
+}
+
+.accept-cookies:hover {
+    opacity: 0.6;
+}
+
+.opening {
+    color: #3a3a3a;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.42);
+}
+
+.opening p {
+    margin: 20px 0;
+    font-size: 25px;
+    color: #bc1818;
+    text-transform: uppercase;
+    font-family: 'Conv_Intro';
+    letter-spacing: 7px;
+}
+
+.aboutUs h2 {
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+}
+
+.aboutUs p {
+    color: #707070;
+    margin: 15px 0;
+}
+
+.internal p.funded,
+p.funded {
+    font-size: 14px;
+    font-style: normal;
+}
+
+.mainInfo p.funded {
+    margin-top: 20px;
+}
+.rowWrapper {
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+}
+
+.logoSofia{
+    border: 1px solid #E0E0E0;
+    border-left: none;
+    border-right: none;
+}
+
+.logoContainer{
+    height: 330px;
+    background: url('../../assets/images/logo_programa_2_kontur_eng.svg') center calc(100% - 50px) no-repeat;
+    background-size: 120px;
+    max-width: 330px;
+    margin: 0 auto;
+    border: 1px solid #E0E0E0;
+    border-top: none;
+    border-bottom: none;
+    display: inline-block;
+}
+
+.logoContainer.italia, .bg .logoContainer.italia{
+    background-image: url('../../assets/images/LOGO-IIC-SOFIA-official.png');
+    background-position: center calc(100% - 70px);
+    background-size: 200px;
+}
+
+.logos{
+    text-align: center;
+}
+
+.logoContainer h3{
+    font-size: 11px;
+    margin: 0;
+    padding: 40px 20px 0;
+    line-height: 1.3;
+}
+
+.bg .logoContainer{
+    background-image: url('../../assets/images/logo_programa_2_kontur_bg.svg');
+}
+
+.exhibitions h2 {
+    margin: 30px 0 70px;
+}
+
+.allWrapper:before {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 65%;
+    height: 50%;
+    left: 30%;
+    top: 35%;
+    border: 1px solid #C2C2C2;
+    z-index: 1;
+}
+
+
+footer {
+    background-color: #020202;
+    padding: 80px 0;
+}
+.imageWrapper {
+    width: 456px;
+    height: 342px;
+    display: inline-block;
+    background: url("../../assets/images/exibition1.jpg") center center no-repeat;
+    background-size: cover;
+    vertical-align: middle;
+}
+
+.rowWrapper {
+    text-align: center;
+    white-space: nowrap;
+    position: relative;
+    z-index: 2;
+}
+
+.rowWrapper.first .imageWrapper:first-of-type {
+    margin-right: 50px;
+}
+
+.rowWrapper.first .imageWrapper:nth-of-type(2) {
+    width: 197px;
+    height: 148px;
+    background-image: url("../../assets/images/exibition2.jpg");
+}
+
+.rowWrapper.second {
+    margin-top: -30px;
+}
+
+.rowWrapper.second .imageWrapper:nth-of-type(1) {
+    width: 331px;
+    height: 248px;
+    margin: 0 450px 0 0;
+    background-image: url("../../assets/images/exibition3.jpg");
+}
+
+.rowWrapper.second .imageWrapper:nth-of-type(2) {
+    width: 314px;
+    height: 418px;
+    background-image: url("../../assets/images/exibition4.jpg");
+}
+
+.photoBook {
+    background: #D23C3B;
+    padding-top: 118px;
+    margin-top: 96px;
+    text-align: left;
+}
+
+.photoBookWrapper {
+    display: inline-block;
+    width: 386px;
+    height: 326px;
+    vertical-align: bottom;
+    background: url("../../assets/images/photobook.png") left bottom no-repeat;
+    background-size: contain;
+}
+
+.photoBookText {
+    display: inline-block;
+    height: 280px;
+    vertical-align: bottom;
+    width: calc(100% - 400px);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: none;
+    position: relative;
+    margin-left: -35px;
+}
+
+.photoBookText h3 {
+    color: #fff;
+    font-size: 27px;
+    max-width: 90%;
+    margin-top: 30px;
+}
+
+.photoBookText:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: none;
+    display: block;
+    width: 100px;
+    height: 100px;
+}
+
+.pastEditions{
+    margin:130px 0 200px;
+}
+
+.pastEditions h2{
+    margin: 0 0;
+}
+
+.pastEditions h3{
+    color: #15151F;
+    font-family: "Nunito", Sans-Serif;
+    font-size: 16px;
+    font-weight: 900;
+    letter-spacing: 0;
+    line-height: 22px;
+    margin-bottom: 60px;
+}
+
+.pastEditions ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.pastEditions ul.desktop {
+    width: calc(50% - 6px);
+    display: inline-block;
+    list-style-type: none;
+    vertical-align: top;
+}
+
+.pastEditions ul li {
+    margin: 0 auto 30px;
+
+}
+
+.pastEditions ul li a, .pastEditions ul li h3, .pastEditions ul li h2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff
+}
+
+.pastEditions ul li h3{
+    margin: 0;
+}
+
+.pastEditions ul li a:hover{
+    text-decoration: none;
+}
+
+.pastEditions ul li a span{
+    padding: 0 30px;
+    border: 1px solid rgba(255,255,255,0.73);
+    color:  #fff;
+    font-size: 26px;
+    line-height: 37px;
+    font-family: 'Conv_Intro';
+}
+
+.pastEditions ul li a span:hover{
+    background: #fff;
+    color: #000;
+}
+
+.pastEditions ul.mobile li:nth-of-type(1), .pastEditions ul.desktop.first li:nth-of-type(1) {
+    width: 450px;
+    height: 300px;
+    background: url("../../assets/images/galleries_links/23.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(2), .pastEditions ul.desktop.second li:nth-of-type(1) {
+    height: 300px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/21.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(3), .pastEditions ul.desktop.first li:nth-of-type(2) {
+    height: 300px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/19.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(4), .pastEditions ul.desktop.second li:nth-of-type(2) {
+    height: 300px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/15.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(5), .pastEditions ul.desktop.first li:nth-of-type(3) {
+    height: 291px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/13.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(6), .pastEditions ul.desktop.second li:nth-of-type(3) {
+    height: 295px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/11.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(7), .pastEditions ul.desktop.first li:nth-of-type(4) {
+    height: 300px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/09.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(8), .pastEditions ul.desktop.second li:nth-of-type(4) {
+    height: 285px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/07.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(9), .pastEditions ul.desktop.first li:nth-of-type(5) {
+    height: 424px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/05.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(10), .pastEditions ul.desktop.second li:nth-of-type(5) {
+    height: 434px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/03.jpg") center center no-repeat;
+}
+.pastEditions ul.mobile li:nth-of-type(11), .pastEditions ul.desktop.first li:nth-of-type(6) {
+    height: 446px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/01.jpg") center center no-repeat;
+}
+
+.pastEditions ul.mobile li:nth-of-type(11), .pastEditions ul.desktop.second li:nth-of-type(6){
+    height: 446px;
+    width: 450px;
+    background: url("../../assets/images/galleries_links/99.jpg") center center no-repeat;
+}
+
+@media all and (max-width: 1279px) {
+    .rowWrapper.second {
+        margin-top: 0;
+    }
+
+    .rowWrapper.second .imageWrapper:nth-of-type(1) {
+        margin: 0 190px 0 0;
+    }
+}
+
+@media all and (max-width: 1180px) {
+
+    .pastEditions ul.desktop{
+        display: none;
+    }
+
+    .pastEditions ul.mobile{
+        display: block;
+    }
+
+    .summary .bottom {
+        padding: 10px 30px 15px;
+    }
+}
+
+@media all and (max-width: 991px) {
+
+    .summary .main{
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .rowWrapper.second {
+        margin-top: 40px;
+    }
+
+    .rowWrapper.second .imageWrapper:nth-of-type(1) {
+        margin: 0 20px 0 0;
+    }
+
+    .mainInfo .rightText {
+        padding-left: 15px;
+        margin-top: 50px;
+    }
+
+    .authorShort ul {
+        width: 500px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .authorShort ul li {
+        width: 50%;
+        padding: 10px;
+        vertical-align: middle;
+    }
+
+    .winners ul.container0 li:nth-of-type(2),
+    .winners ul.container2 li:nth-of-type(1),
+    .winners ul.container1 li:nth-of-type(3) {
+        width: 100%;
+        display: block;
+    }
+
+
+    .authorAward,
+    .authorInfo {
+        width: 100%;
+        text-align: center;
+    }
+
+    .container2 .authorInfo {
+        position: static;
+    }
+
+    .authorShort:nth-of-type(3n+2):before,
+    .authorShort:nth-of-type(3n+1):before,
+    .authorShort:nth-of-type(3n+0):before {
+        top: 60px;
+        height: 350px;
+    }
+
+    .container0 li:nth-of-type(3) .seriesTitle {
+        float: none;
+    }
+
+    .container0 li:nth-of-type(3) .seriesTitle p {
+        text-align: center;
+    }
+
+    .authorTitle {
+        padding-right: 0;
+    }
+
+    .galleryContainer ul.years li {
+        padding: 0 15px;
+    }
+
+    .singleImg {
+        text-align: center;
+    }
+
+    .mans {
+        width: 720px;
+        margin: 0 auto;
+    }
+
+    .carousel-inner > .item > a > img,
+    .carousel-inner > .item > img {
+        padding: 0 10px;
+    }
+
+    .summary h1 {
+        font-size: 26px;
+    }
+
+    .summary h4 {
+        font-size: 70px;
+        line-height: 70px;
+    }
+
+    .summary span {
+        font-size: 27px;
+        line-height: 20px;
+    }
+
+    .summary .next {
+        vertical-align: -7px;
+    }
+
+    .summary .bottom {
+        padding: 10px;
+    }
+
+    footer .float-right,
+    footer .float-left {
+        float: none;
+        text-align: center;
+        margin: 10px 0;
+    }
+
+    footer .float-left p {
+        margin: 10px auto;
+    }
+
+    footer .social {
+        padding: 10px 0;
+    }
+}
+
+@media all and (max-width: 767px) {
+    .rowWrapper.second .imageWrapper:nth-of-type(2) {
+        display: none;
+    }
+
+    .rowWrapper.first .imageWrapper:nth-of-type(1) {
+        display: none;
+    }
+}
+
+@media all and (max-width: 640px) {
+    .flexMobile{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .photoBookWrapper, .photoBookText {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        background-position: center bottom;
+    }
+
+    .photoBookWrapper, .photoBookText h3 {
+        margin: 0 auto;
+    }
+
+
+    .photoBookText {
+        order: 1;
+        margin: 0 0 30px;
+        border: none;
+        height: auto;
+    }
+
+    .photoBookText:before, .allWrapper:before {
+        display: none;
+    }
+
+    .photoBookWrapper{
+        order: 2
+    }
+}
+
+@media (max-width: 480px) {
+     .pastEditions ul.mobile li {
+        width: 300px!important;
+        height: 200px!important;
+    }
+    .mobile {
+        display: block;
+    }
+    .photoBookText {
+        margin: 0;
+        width: 100%;
+    }
+
+    .rowWrapper.second .imageWrapper:first-of-type{
+        margin: 0;
+        max-width: 100%;
+    }
+}

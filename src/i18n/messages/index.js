@@ -1,6 +1,9 @@
-import en from './en-US'
-import bg from './bg'
-export default {
-	...en,
-	...bg
-}
+import en from './en-US';
+import bg from './bg';
+
+const messages = {
+    ...en,
+    ...bg
+};
+
+export default messages;
