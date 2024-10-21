@@ -27,6 +27,10 @@
     top: 10%;
 }
 
+.authorShort.single:before {
+    content: none;
+}
+
 .authorContent {
     padding: 100px 0;
 }
@@ -45,6 +49,10 @@
     flex-wrap: nowrap;
     list-style-type: none;
     padding: 0;
+}
+
+.authorShort.single .authorImages, .authorShort.single .authorImages li{
+    display: block;
 }
 
 
@@ -215,5 +223,9 @@
 
     .container2 .authorInfo{
         display: block;
+    }
+
+    .authorShort.single .authorImages, .authorShort.single .authorImages li img{
+        max-width: 100%;
     }
 }

@@ -10,12 +10,14 @@ const WinnersList = (props) => {
 
     const winnersHTML = props.winners.map((author, index) => {
         const award = translate({ id: author.award });
+        console.log(author.urls.length)
+        const single = author.urls.length === 1;
 
         // Compute dynamic class for container
         const containerClass = classes['container' + ((props.allWinnersLength - index) % 3)];
 
         return (
-            <div className={classes.authorShort} key={`${author.name.replace(/ /g, '_')}_${props.edition}`}>
+            <div className={`${classes.authorShort} ${single ? classes.single : ''}`} key={`${author.name.replace(/ /g, '_')}_${props.edition}`}>
                 <div className="container">
                     <div className="row">
                         <div className={`col-md-12 ${classes.authorContent}`} id={author.name.replace(/ /g, '_')}>
@@ -48,7 +50,7 @@ const WinnersList = (props) => {
                                                     search: `?author=${author.name.replace(/ /g, '_')}`
                                                 }}
                                             >
-                                                {index === 1 ? (
+                                                {index === 1 || single ? (
                                                     <img className="big-img" src={`/${author.urlsMedium[index]}`} alt={author.name} />
                                                 ) : (
                                                     <img className="small-img" src={`/${author.urlsThumb[index]}`} alt={author.name} />
