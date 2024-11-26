@@ -1,108 +1,41 @@
-import React, {Component} from 'react';
+import React from 'react';
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { useSelector } from 'react-redux';
+import Home from "./Pages/Home/Home";
+import Editions from "./Pages/Editions/Editions";
+import Regulations from "./Pages/Regulations/Regulations";
+import About from "./Pages/About/About";
+import MainLayout from "./Layouts/MainLayout";
+import { I18nProvider } from "./i18n";
+import './styles/bootstrap.css';
 import './styles/styles.css';
-import './styles/bootstrap.min.css';
-import Header from "./components/Header/header";
-import Footer from "./components/Footer/footer";
-import {I18nProvider, LOCALES} from "./i18n";
-import {BrowserRouter, Route, Switch} from 'react-router-dom';
-import ScrollToTop from "./Auxillery/ScrollToTop";
+import Cookies from "./Pages/Cookies/Cookies";
 
+const routes = [
+  {
+    path: '/',
+    element: <MainLayout />,
+    errorElement: <Home />,
+    children: [
+      { index: true, element: <Home /> }, // index: true indicates that this is the root path
+      { path: 'regulations', element: <Regulations /> },
+      { path: 'about', element: <About /> },
+      { path: 'cookies', element: <Cookies /> },
+      { path: 'editions', element: <Editions /> },
+      { path: 'editions/:edition', element: <Editions /> },
+    ]
+  }
+];
 
-import Home from "./TextContainers/Home";
-import AboutUs from "./TextContainers/AboutUs";
-import Events from "./TextContainers/Events";
-import News from "./TextContainers/News";
-import Cookies from "./TextContainers/Cookies";
-import Terms from "./TextContainers/Terms";
-import GalleriesComponent from "./components/Gallery/GalleriesComponent"
-import AuthorGallery from "./components/Gallery/AuthorGallery/AuthorGallery";
-import Popup from "./components/Popup/Popup";
+const router = createBrowserRouter(routes);
 
-
-class App extends Component {
-
-	state = {
-		lang: LOCALES.ENGLISH,
-		switchMobileOpened: false,
-		scrolledDown: false
-	}
-
-	switchLanguage = (lang) => {
-		this.setState({
-			lang: lang.value
-		})
-	}
-
-	switchMenuMobile = () => {
-		this.setState(prevSpate => ({
-			switchMobileOpened: !prevSpate.switchMobileOpened
-		}))
-	}
-
-
-	componentDidMount() {
-
-		document.addEventListener('click', (event)=>{
-			if(event.target.tagName === 'A' || event.target.parentNode.tagName === 'A'){
-				localStorage.setItem('hasHistory', 1);
-			}
-		});
-
-		const isScrolledDown = () => {
-			if(window.pageYOffset !== 0 && this.state.scrolledDown) {
-				this.setState(prevSpate => ({
-					scrolledDown: false
-				}))
-			}
-			else if (window.pageYOffset === 0 && !this.state.scrolledDown) {
-				this.setState(prevSpate => ({
-					scrolledDown: true
-				}))
-			}
-		}
-		window.onscroll = function() {
-			isScrolledDown();
-		};
-		isScrolledDown();
-	}
-
-
-	render() {
-		return (
-			<I18nProvider locale={this.state.lang}>
-				<BrowserRouter>
-					<ScrollToTop>
-					<Route path="/" component={AuthorGallery}/>
-					<div className={`wrap ${this.state.lang}`}>
-						<Header switchLang={this.switchLanguage}
-								lang={this.state.lang}
-								locales={LOCALES}
-								hamburgerMobile={this.switchMenuMobile}
-								switchMobileOpened = {this.state.switchMobileOpened}
-								additionalClass = {!this.state.scrolledDown ? 'scrolled': ''}
-						/>
-						<Switch>
-							<Route path="/aboutUs" exact component={AboutUs}/>
-							{/*<Route path="/regulations" exact component={Regulations}/>*/}
-							<Route path="/events" exact component={Events}/>
-							<Route path="/news" exact component={News}/>
-							<Route path="/cookies" exact component={Cookies}/>
-							<Route path="/terms" exact component={Terms}/>
-							<Route path="/gallery/" component={GalleriesComponent}/>
-							<Route path="/regulations/" component={() => {
-								window.location.href = 'https://entry.phodar.net/';
-								return null;
-							}}/>
-							<Route path="/" component={Home}/>
-						</Switch>
-						<Footer/>
-					</div>
-					<Route path="/" component={Popup}/>
-					</ScrollToTop>
-				</BrowserRouter>
-			</I18nProvider>
-		);
-	}
+const App = () => {
+  const language = useSelector((state) => state.switchLang.language);
+  return (
+      <I18nProvider locale={language}>
+        <RouterProvider router={router} />
+      </I18nProvider>
+  );
 }
 
 export default App;
