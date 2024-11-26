@@ -70,6 +70,7 @@
 
 ul.awards li a {
     padding-left: 30px;
+    font-size: 14px;
 }
 
 .awards li:not(.empty):before {

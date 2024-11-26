@@ -25,6 +25,7 @@
     left: 50%;
     margin-left: -275px;
     top: 10%;
+    z-index: -1;
 }
 
 .authorShort.single:before {

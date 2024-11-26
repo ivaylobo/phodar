@@ -49,7 +49,9 @@ body h4 {
 .Dropdown-root {
     position: relative;
 }
-
+a{
+    text-decoration: none;
+}
 .Dropdown-control {
     position: relative;
     overflow: hidden;

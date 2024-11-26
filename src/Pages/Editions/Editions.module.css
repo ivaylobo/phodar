@@ -62,6 +62,10 @@
     padding: 0 20px;
 }
 
+.galleryContainer ul.years li h4{
+    font-size: 18px;
+}
+
 .galleryContainer ul.years li:hover {
     cursor: pointer;
     color: #c12747;

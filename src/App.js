@@ -7,7 +7,7 @@ import Regulations from "./Pages/Regulations/Regulations";
 import About from "./Pages/About/About";
 import MainLayout from "./Layouts/MainLayout";
 import { I18nProvider } from "./i18n";
-import './styles/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles/styles.css';
 import Cookies from "./Pages/Cookies/Cookies";
 

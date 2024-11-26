@@ -16,7 +16,8 @@ const EditionGallery = ({editionYear}) => {
                     search: `?author=${winner.name.replace(/ /g, '_')}`
                 }}
                          className='my-active'>
-                    <span>{translate({id: winner.award})}</span> <strong>{winner.name}</strong>
+                    <span>{translate({id: winner.award})}</span> <strong>{winner.name} </strong>
+
                     <span>{translate({id: winner.country})}</span>
                 </NavLink>
             </li>
