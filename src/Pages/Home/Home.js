@@ -74,10 +74,14 @@ const Home = () => {
             <div className={classes.logoSofia}>
                 <div className={`${classes.container} container`}>
                     <div className="row">
-                        <div className={`col-md-12 ${classes.logos}`}>
+                        <div className={`col-md-6 ${classes.logos}`}>
                             <div className={classes.logoContainer}>
                                 <h3>{translate({id: 'sofia_logo'})}</h3>
                             </div>
+                        </div>
+                        <div className={`col-md-6 ${classes.logos}`}>
+                            <a rel="noreferrer" href="https://obscuramag.com/" target="_blank" className={`${classes.logoContainer} ${classes.obscura}`}>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -86,7 +90,7 @@ const Home = () => {
                 <div className={`${classes.container} container`}>
                     <div className="row">
                         <div className="col-md-12">
-                            <h2>{translate({id: 'showcase your photography in our festival exhibitions'})}</h2>
+                        <h2>{translate({id: 'showcase your photography in our festival exhibitions'})}</h2>
                             <div className={classes.allWrapper}>
                                 <div className={`${classes.rowWrapper} ${classes.first}`}>
                                     <div className={classes.imageWrapper}></div>

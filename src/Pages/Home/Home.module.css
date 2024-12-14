@@ -347,6 +347,13 @@ p.funded {
     display: inline-block;
 }
 
+.obscura{
+    background: url(../../assets/images/obscura.svg) center center no-repeat;
+    width: 100%;
+    background-size: 80%;
+    height: 330px;
+}
+
 .logoContainer.italia, .bg .logoContainer.italia{
     background-image: url('../../assets/images/LOGO-IIC-SOFIA-official.png');
     background-position: center calc(100% - 70px);
@@ -761,6 +768,10 @@ footer {
 
     .rowWrapper.first .imageWrapper:nth-of-type(1) {
         display: none;
+    }
+
+    .obscura{
+        border-top: 1px solid #E0E0E0;
     }
 }
 
