@@ -55,6 +55,10 @@
     text-transform: uppercase;
 }
 
+.extended span{
+    color: #D23C3B;
+}
+
 .summary .top {
     padding-top: 200px;
     font-family: 'Conv_Intro', Sans-Serif;

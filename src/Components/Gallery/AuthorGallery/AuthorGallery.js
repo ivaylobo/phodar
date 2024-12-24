@@ -132,12 +132,8 @@ const AuthorGallery = () => {
                                     </ResponsiveMasonry>
                                 )}
 
-                                <p className="collection-text">{currentAuthor.text}</p>
-                                {currentAuthor.translatedText ? (
-                                    <div className="collection-text">
-                                        {/*{translate(currentAuthor.translatedText, { breakLine: <hr /> })}*/}
-                                    </div>
-                                ) : null}
+                                <p className={classes.collectionText}>{currentAuthor.text}</p>
+
                             </div>
                         </div>
                     </div>

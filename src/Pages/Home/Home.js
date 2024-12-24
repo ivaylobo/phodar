@@ -40,6 +40,7 @@ const Home = () => {
                 <div className={`${classes.container} container`}>
                     <div className="row">
                         <div className="col-md-12">
+                            <h2 className={classes.extended}><span>{translate({id: 'DEADLINE_EXTENDED'})}</span></h2>
                             <h2><span>{translate({id: 'HOME_MAIN_TEXT'})}</span></h2>
                             <h3>
                                 {translate({id: 'HOME_MAIN_TEXT_1', value: {cash: <strong>$2.000</strong>}})} <br/>

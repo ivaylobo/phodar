@@ -569,6 +569,7 @@ const messages = {
         "12 edition": "12 edition",
         "Sameness and semblance" : "Sameness and semblance",
         "Photographic reality": "Photographic reality",
+        "DEADLINE_EXTENDED": "Deadline extended to January 10, 2025"
     }
 }
 

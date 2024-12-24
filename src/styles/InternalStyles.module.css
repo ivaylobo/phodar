@@ -22,6 +22,10 @@
     font-size: 28px;
 }
 
+.internal .extended{
+    color: #D23C3B;
+}
+
 .internal.terms ul li {
     list-style-type: circle;
     display: list-item;

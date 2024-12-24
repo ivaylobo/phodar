@@ -569,6 +569,7 @@ const messages= {
         "12 edition": "12 издание",
         "Sameness and semblance" : "Образ и подобие",
         "Photographic reality": "Фотографска реалност",
+        "DEADLINE_EXTENDED": "Крайният срок е удължен до 10-ти януари 2025 г."
     }
 }
 

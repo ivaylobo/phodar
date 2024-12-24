@@ -12,19 +12,38 @@ const Regulations = () => {
                         <h1>
                             <strong>{translate({id: 'Regulations_2'})}</strong>
                         </h1>
+                        <h2 className={classes.extended}>{translate({id: "DEADLINE_EXTENDED"})}</h2>
                         <h2>{translate({id: 'terms_1'})}</h2>
                         <p>{translate({id: 'terms_2'})}</p>
-                        <p>{translate({id: 'terms_3', value: {link: <NavLink className="active" to="/">phodar.net</NavLink>}})}</p>
+                        <p>{translate({
+                            id: 'terms_3',
+                            value: {link: <NavLink className="active" to="/">phodar.net</NavLink>}
+                        })}</p>
                         <p>{translate({id: 'terms_4'})}</p>
-                        <p>{translate({ id: 'terms_5', value: { link: <a className="active" href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">entry.phodar.net</a> } })}</p>
+                        <p>{translate({
+                            id: 'terms_5',
+                            value: {
+                                link: <a className="active" href="https://entry.phodar.net" target="_blank"
+                                         rel="noopener noreferrer">entry.phodar.net</a>
+                            }
+                        })}</p>
                         <h2>{translate({id: 'terms_6'})}</h2>
                         <p>{translate({id: 'terms_7'})}</p>
                         <h2>{translate({id: 'terms_9'})}</h2>
                         <p>{translate({id: 'terms_10'})}</p>
-                        <p>{translate({id: 'terms_11', value: {link: <NavLink className="active" to="/">phodar.net</NavLink>}})}</p>
+                        <p>{translate({
+                            id: 'terms_11',
+                            value: {link: <NavLink className="active" to="/">phodar.net</NavLink>}
+                        })}</p>
                         <p>{translate({id: 'terms_11_1'})}</p>
                         <h2>{translate({id: 'terms_12'})}</h2>
-                        <p>{translate({id: 'terms_13', value: {link: <a className="active" href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">entry.phodar.net</a>}})}</p>
+                        <p>{translate({
+                            id: 'terms_13',
+                            value: {
+                                link: <a className="active" href="https://entry.phodar.net" target="_blank"
+                                         rel="noopener noreferrer">entry.phodar.net</a>
+                            }
+                        })}</p>
                         <p>{translate({id: 'terms_14'})}</p>
                         <p>{translate({id: 'terms_15'})}</p>
                         <ul>
@@ -77,7 +96,8 @@ const Regulations = () => {
                         <p>{translate({id: 'terms_49'})}</p>
                         <p>{translate({id: 'terms_50'})}</p>
                         <p>{translate({id: 'terms_51'})}</p>
-                        <a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">{translate({id: 'enter'})}</a>
+                        <a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank"
+                           rel="noopener noreferrer">{translate({id: 'enter'})}</a>
                     </div>
                 </div>
             </div>
