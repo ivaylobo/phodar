@@ -467,7 +467,7 @@ const messages = {
         "terms_4_1": "Reference:",
         "terms_4_2": "Genesis 1:26: „And God said, Let us make man in our image, after our likeness: and let them have dominion over the fish of the sea, and over the fowl of the air, and over the cattle, and over all the earth, and over every creeping thing that creepeth upon the earth. ”",
         "terms_4_3": "Genesis 1:27: „So God created man in his own image, in the image of God created he him; male and female created he them.”",
-        "terms_4_5": "A jury consisting of Alexander Nishkov, Antoan Bozhinov, Elisaveta Musakova, Ivan Zahariev, Yordan Evtimov, Nadezhda Pavlova, Plamen Shulikov and Rosen Kolarov will choose the prizes and the participants in the exhibition of Phodar Biennial 2025.",
+        "terms_4_5": "A jury consisting of Branislav Brkich, Alexander Nishkov, Antoan Bozhinov, Elisaveta Musakova, Ivan Zahariev, Yordan Evtimov, Nadezhda Pavlova, Plamen Shulikov and Rosen Kolarov will choose the prizes and the participants in the exhibition of Phodar Biennial 2025.",
         "terms_4_6": "On 08.06.2023, from 17:00, in the art museum from the socialist period, a seminar on the topic 'sameness and semblance' will take place. The guests will be professors at Bulgarian universities and Alessio Paduano, a participant in this year's edition from Italy.",
         "terms_5": "By submitting your entry on {link}, you agree to all of the terms and conditions listed here.",
         "terms_6": "General conditions",
@@ -476,7 +476,8 @@ const messages = {
         "terms_9": "Prizes",
         "terms_10": "Prize winners will be selected by a panel of independent judges and their decision is final.",
         "terms_11": "The prizes shall be as specified on {link}. The prizes will be paid in USD. Any fees incurred by foreign currency transfers, if any, will be on the account of the entrant and will be deducted from the prize amount. ",
-        "terms_11_1": "Each participant can participate with one series in one of the sections: 'Grand prize' or 'Debut of a young author'. A 'humanistic photography' award will be presented to one author, regardless of the section in which he/she participated.",
+        "terms_11_1": "Each participant can participate with one series in one of the sections: 'Grand prize' or 'Debut'. A 'humanistic photography' award will be presented to one author, regardless of the section in which he/she participated.",
+        "terms_11_2": "An author who is at the beginning of his creative journey and does not yet have serious achievements on the national and international scene can participate in 'debut'.",
         "terms_12": "Competition",
         "terms_13": "To enter the competition, you must upload your Entry at {link} following the on-screen instructions carefully. We need your full name, email address, country and the title of the uploaded series. ",
         "terms_14": "For the Entry, you can submit between 8 and 24 images with coherent overall look – photo essay, from an unfinished, ongoing or completed project. The photographs have to be created after 2023 when was the last edition of the PHODAR Biennial. No stock photography is allowed.",
@@ -501,6 +502,7 @@ const messages = {
         "terms_29": "Entries will be judged by competent jury. The members of the jury are selected for their experience and qualification in the field of contemporary arts and culture and are not permitted to enter and to submit their own entries in the competition. ",
         "terms_30": "Rights",
         "terms_31": "We respect your intellectual property rights. Copyright of the images will remain at all times with the photographer. All entrants agree of the storage of their images in electronic form for the purpose of judging the competition and the private distribution of those images as required to complete the judging process. Finalist’s images as selected by the jury will be printed and mounted at the expense of the PHODAR Foundation, for display at the PHODAR Awards Exhibitions. Ownership of the prints remains with PHODAR Foundation. These may not be sold or published without the express written permission of the entrant but may be displayed in public to promote the competition and subsequent competitions.",
+        "terms_31_add": "The organizers have the right to reduce the number of photos in one series according to the conditions of the exhibition space.",
         "terms_32": "Use of works",
         "terms_33": "By entering the Award, you agree that any work you submit may be used by PHODAR Foundation (and our print and gallery partners) solely for purposes in connection with the Award or future Awards, and any successor website and no other purpose. These uses include:",
         "terms_34": "Judging the competition",
@@ -569,7 +571,8 @@ const messages = {
         "12 edition": "12 edition",
         "Sameness and semblance" : "Sameness and semblance",
         "Photographic reality": "Photographic reality",
-        "DEADLINE_EXTENDED": "Deadline extended to January 10, 2025"
+        "DEADLINE_EXTENDED": "Deadline extended to January 10, 2025",
+        "THANK_YOU": "Thank you to all participants! A judging stage follows. Expect information on our website.",
     }
 }
 

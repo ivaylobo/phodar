@@ -9062,7 +9062,7 @@ const galleryObj = [
 			},
 			{
 				name: "Alain Schroeder",
-				text: "",
+				text: "White glove buildings, designer boutiques, Museum Mile, and ladies who lunch are some of the images associated with Manhattan’s Upper East Side (UES), a neighborhood with numbered streets running east/west from roughly 59th to 96th Street, dissected by famous avenues like Park, Madison, and Fifth, and considered New York City’s most affluent area; originally divided into Lenox Hill, Yorkville, and Carnegie Hill, each with its distinct personality and landmarks, the boundaries have blurred over the years, with the majority of the population being older and wealthier than the rest of the city, though many live in rent-controlled apartments; the new 2nd Avenue subway has made the area even more desirable, attracting a younger, more diverse population despite resistance from longtime residents to the development boom, which has replaced family-run businesses with high-rises and chain stores, while longtime UES residents, who would never dream of leaving, express a desire to have fun in their portraits, showing a microcosm of life on the Upper East Side.",
 				translatedText: "translation_23_3",
 				title: "Upper East Side Story",
 				award: "",
@@ -9117,7 +9117,7 @@ const galleryObj = [
 			},
 			{
 				name: "Agata Siubijak",
-				text: "",
+				text: "I have been documenting military camps for 3 years, where children aged 8 to 17, some sent by parents for discipline, come to train as recruits. In 2022, one of the classes involved children practicing the technique of burying themselves underground, a method used by soldiers to hide from enemies or as a form of torture. They dug holes in a forest, some more bravely than others, with a few even conducting mock funeral ceremonies. The children buried each other and experienced the suffocating darkness of being underground. The screams of their friends above grew muffled, and the moment felt like death. When I returned hours later, the forest was empty, and there was no trace of the pits. The educators assessed who hid the best, with the oldest boys being rated the best. Eventually, the buried children emerged from the earth, and the forest seemed to come back to life, leaving no sign of the pits they had been buried in.",
 				translatedText: "translation_23_2",
 				title: "One day when we died",
 				award: "",
@@ -9157,7 +9157,8 @@ const galleryObj = [
 			},
 			{
 				name: "Alessandro Mirai",
-				text: "",
+				text: "Dolores. An intimate story of a bipolar mother\n" +
+					"Dolores, my mother, attempted suicide cause of bipolar disorder. I instinctively photographed her surrendered on the bed with her farewell letter. Her pain was linked to one of its cyclic apexes. There’s no luxury of a warning or remedy to deal with its inexorable cycles. Photography became the instrument of a silent relationship with her and her pathology. WHO recognize it as the sixth cause of social distress globally, denying freedom in moments of emotional peak or longer periods of apathy.",
 				translatedText: "translation_23_4",
 				title: "Dolores. An intimate story of a bipolar mother",
 				award: "",
@@ -9218,7 +9219,7 @@ const galleryObj = [
 			},
 			{
 				name: "Alessio Paduano",
-				text: "",
+				text: "On February 24, 2022, the Russian invasion of Ukraine began, with Putin's troops quickly advancing north, south, and east of the country in their armored vehicles, while launching a series of heavy bombings in Kiev and other cities, causing numerous civilian casualties, as men between the ages of eighteen and sixty had to remain at home to try to stop the Russian advance, and thousands of women and children tried to escape the country and reach Europe.",
 				translatedText: "translation_23_5",
 				title: "Ukraine under attack",
 				award: "Grand Prix",
@@ -9294,7 +9295,7 @@ const galleryObj = [
 			},
 			{
 				name: "Alireza Goudarzi",
-				text: "",
+				text: "Life on the Dark Side is an intimate, long-term documentary project that attempts to portray truthful images of Iranian youth, beyond the clichéd representations familiar to many in the West. Regardless of all the cultural, religious, and political limitations that have become part of daily life since Iran’s revolution, these young people are challenging those limitations as they work to find their own identity and to live independently.",
 				translatedText: "translation_23_6",
 				title: "Life on the Dark Side",
 				award: "",
@@ -9370,7 +9371,7 @@ const galleryObj = [
 			},
 			{
 				name: "Asen Georgiev",
-				text: "",
+				text: "Upon arriving in Cuba, it feels like any other Latin American country with long queues, passport control, and humidity, while Havana’s hauntingly beautiful architecture surrounds me, and there are no communist blocks in sight, making it less communist than my hometown of Sofia, Bulgaria, which makes me wonder if I was wrong in thinking it would be the same; however, what sets Cuba apart is its governance, as the communist regime failed miserably, like everywhere else, leading to an ongoing economic crisis since the collapse of the Soviet Union, with a severe scarcity of basic goods like soap and bread, much like Bulgaria in 1997, the year I was born.",
 				translatedText: "translation_23_7",
 				title: "People's Republic of Cuba",
 				award: "",
@@ -9501,7 +9502,7 @@ const galleryObj = [
 			},
 			{
 				name: "Ebrahim",
-				text: "",
+				text: "The removal and veiling of the female body in the history of Iran have been deeply ingrained in the country’s historical works, with censorship beginning with the exclusion of women from public spaces and restricting them to private homes, as well as the government's actions to erase the image of women in paintings, with successive Islamic governments attempting to control what they see as women’s inherent lust and impurity; Iran, a deeply reactionary country and self-proclaimed representative of Shiites and Muslims, has long imposed strict laws on women, and after the death of Mahsa (Jina) Amini in September 2022 at the hands of the Admonishing Patrol in Tehran, the justice movement of the Iranian people entered a new phase, with these protests being the most serious and prolonged in the 44 years since the Islamic revolution, as women took to the streets with the slogan \"Women, Life, Freedom\" to make their voices for justice heard globally, yet they remain deprived of all social platforms, their facelessness symbolizing years of neglect and the bold dominance of patriarchy in Iranian culture.",
 				translatedText: "translation_23_9",
 				title: "Woman, life, freedom",
 				award: "",
@@ -9545,7 +9546,7 @@ const galleryObj = [
 			},
 			{
 				name: "Helene Antorini",
-				text: "",
+				text: "Having contacted an acapoiera professional, I realized this work symbolizing the relationship of man between the desire to take flight of freedom and the normative shackles of the social structure represented by the city.",
 				translatedText: "translation_23_10",
 				title: "Before the fall",
 				award: "",
@@ -9585,7 +9586,7 @@ const galleryObj = [
 			},
 			{
 				name: "Jiri Sneider",
-				text: "",
+				text: "The Gulf of Bengal, with a population of more than 156 million, keeps its economy running on hard human labour every day. Across the age, gender… older children take care of young children and infants, while parents earn money for daily survival, medical care, housing and other daily necessities. In such working conditions where the human body is exposed to dust, polluted water, fumes from machines and cars for a long time. So that families do not have to waste time commuting to work, they live in simple shelters around the shipyard, the port, or directly in the areas where bricks are made and baked, in villages where they also manually model clay bowls and bake them in primitive kilns. Even whole families work on a landfill, where they sort and recycle garbage for sale to make a living.",
 				translatedText: "translation_23_11",
 				title: "Hard workers",
 				award: "",
@@ -9628,7 +9629,15 @@ const galleryObj = [
 			},
 			{
 				name: "Marcos Azulay",
-				text: "",
+				text: "In a culture where we turn our backs on death, seen as a defeat to medical system and where \n" +
+					"euthanasia appears as a possible solution, San Camilo´s Hospice propose a society in which \n" +
+					"no one should live the end of life in abandonment and without comprehensive human care. \n" +
+					"Since its foundation in 2002 San Camilo has become a point of reference for hospice care in \n" +
+					"Argentina, assisting more than 2000 people with life expectancy less than six months, and \n" +
+					"accompanying relatives and friends without any ethnic, cultural or religious discrimination. \n" +
+					"Inspired in the spirit of Mother Teresa, it pays special attention for those who lack economic \n" +
+					"resources or with no family support. Services are free and is maintained by donations and \n" +
+					"free work of 200 volunteers",
 				translatedText: "translation_23_12",
 				title: "A-Dios",
 				award: "Humanistic Photography Prize",
@@ -9722,7 +9731,7 @@ const galleryObj = [
 			},
 			{
 				name: "Michele Amoruso",
-				text: "",
+				text: "A 7.8 magnitude earthquake struck southeast Turkey near the Syrian border on February 6, 2023, at 4:17 a.m. local time, with a depth of 11 miles. The earthquake impacted 13 million of Turkey’s 85 million citizens and resulted in at least 120 aftershocks. These have been some of the strongest earthquakes to hit the region in a century. The earthquake in Turkey has left hundreds of thousands of children and their families homeless and vulnerable to disease, exploitation, and abuse. The harsh winter weather and damage to shelters and water infrastructure have increased the risk of hypothermia and waterborne diseases. Children are also unable to return to school as buildings have been deemed unsafe. The disaster has added to the already severe humanitarian crisis in northwest Syria and created the perfect environment for a health crisis with reduced healthcare capacity and disease outbreaks. The earthquake has caused trauma to the ongoing crisis in the region, with families facing difficulties in dealing with the physical and mental impact of the disaster while trying to survive without homes and access to food in sub-zero temperatures.",
 				translatedText: "translation_23_14",
 				title: "The violent earthquake in Turkey",
 				award: "",
@@ -9798,7 +9807,10 @@ const galleryObj = [
 			},
 			{
 				name: "Mohammad Babaei",
-				text: "",
+				text: "Women's boxing matches are prohibited in Iran.\n" +
+					"In recent years, many women have been playing this sport underground (unofficially).\n" +
+					"Most of them train individually in non-specialized sports spaces such as open spaces around the city, inside houses, secluded places, etc., and even to hold an informal match with their own money, they have to wait for their opponent for months. And sometimes they travel to another city to hold an unofficial competition.\n" +
+					"Some of them use social networks with foreign coaches and athletes to improve their sport.",
 				translatedText: "translation_23_15",
 				title: "Fighting for a fight",
 				award: "",
@@ -9845,7 +9857,7 @@ const galleryObj = [
 
 			{
 				name: "Neli Gavrilova",
-				text: "",
+				text: "Wrapped in bubbles, expressions, thoughts, and experiences converge at a point of touch, both real and unreal, embodying life in the infinity of adaptation, with energy and a desire to merge with time and fully experience every moment; people and dolls, the various incarnations of characters, are mirrors of themselves, as fears turn into fleeting illusions, shrinking into the shadows of bubbling bubbles, while the fusion of air and water captures vastness in its immensity—an ethereal completion without frames or limitations, a magical place where anything is possible... To be or not to be yourself...",
 				translatedText: "translation_23_16",
 				title: "Bubbles-Exhalation",
 				award: "",
@@ -9903,7 +9915,7 @@ const galleryObj = [
 			},
 			{
 				name: "Olena Smyrnova",
-				text: "",
+				text: "Once I came up with and shot a series of pictures with the main character, who lives her \"dolce vita\" brightly and does not worry because she is ... a shrimp. The main thing is not how you were created, but how you live this life. One more thing. No matter how sweet life is, death is always there, even in her world.",
 				translatedText: "translation_23_17",
 				title: "Dolce vita",
 				award: "",
@@ -9949,7 +9961,7 @@ const galleryObj = [
 			},
 			{
 				name: "Polina Schneider",
-				text: "",
+				text: "According to Russian law, couples usually have to wait for four weeks after the initial registration to be allowed to marry. Under special circumstances, however, this waiting period is waived. The military mobilization counts as such. Recruits can thus get married on the same date. The procedure takes up 20 to 30 minutes only. Many drafted Russians are said to have taken advantage of this rule, because only the legal spouse is allowed to see her husband or receive a compensation if he was wounded or killed during war. Even if a couple has lived together for many years, the partner has no comparable rights without an according marriage certificate. Since the partial mobilization, the number of marriages has risen rapidly.",
 				translatedText: "translation_23_18",
 				title: "I Superhero",
 				award: "Debut Prize",
@@ -9998,7 +10010,7 @@ const galleryObj = [
 			},
 			{
 				name: "Shiva Khademi",
-				text: "",
+				text: "According to global statistics, one percent of the world’s population consists of twins and multiples. Based on the statistics from Iran National Organization for Civil Registration, the multiple births in Iran have been up to three percent of births since 2011. In spite of their low percentage, multiples have had a profound impact throughout history. Sometimes they have been worshiped as gods, sometimes as charmers. Twins have marked their footsteps in myths, and accordingly, there are a lot of resemblances in various cultures; such as Castor and Pollux who were known as “the heavenly twins” and are often associated with Gemini; Romulus and Remus, Jacob and Esau, Horus and Seth, etc.",
 				translatedText: "translation_23_19",
 				title: "Gemini",
 				award: "",
@@ -10059,7 +10071,7 @@ const galleryObj = [
 			},
 			{
 				name: "Toby Binder",
-				text: "",
+				text: "If I had been born at the top of my street, behind the corrugated-iron border, I would have been British. Incredible to think. My whole idea of myself, the attachments made to a culture, heritage, religion, nationalism, and politics are all an accident of birth. I was one street away from being born my ‘enemy’,\" says Paul McVeigh, Belfast-born novelist. For almost two decades, I have been documenting the daily life of teenagers in British working-class communities, and after the Brexit referendum, I focused this work on Belfast in Northern Ireland, where there was concern that Brexit could threaten the 1998 Peace Agreement that ended the armed conflict between Protestant Unionists and Catholic Nationalists, who still live in homogeneous neighborhoods divided by walls. These two communities, though seeming to have irreconcilable differences, are more similar than they would like to admit; while they maintain their own symbols of identity and tradition, they share the same clothes, hairstyles, music, beer, drugs, and worries like violence, unemployment, social discrimination, and lack of prospects. Despite the 25-year-old Peace Agreement, people still live in parallel societies with no contact in everyday life, and only 7% of pupils attend integrated schools. The practical implementation of Brexit has raised tensions, and with Catholics now outnumbering Protestants and Sinn Féin, a pro-Irish party, winning a parliamentary majority, reunification with the Republic of Ireland seems possible, which will continue to fuel controversy. It is time to overcome old rifts and ideas of identity to look forward to a better future for all young people in Northern Ireland.",
 				translatedText: "translation_23_20",
 				title: "Wee Muckers – Youth of Belfast",
 				award: "Diplom",
@@ -10135,7 +10147,7 @@ const galleryObj = [
 			},
 			{
 				name: "Andrey Shapran",
-				text: "",
+				text: "I have been documenting military camps for 3 years, where children aged 8 to 17, some sent by parents for discipline, come to train as recruits. In 2022, one of the classes involved children practicing the technique of burying themselves underground, a method used by soldiers to hide from enemies or as a form of torture. They dug holes in a forest, some more bravely than others, with a few even conducting mock funeral ceremonies. The children buried each other and experienced the suffocating darkness of being underground. The screams of their friends above grew muffled, and the moment felt like death. When I returned hours later, the forest was empty, and there was no trace of the pits. The educators assessed who hid the best, with the oldest boys being rated the best. Eventually, the buried children emerged from the earth, and the forest seemed to come back to life, leaving no sign of the pits they had been buried in.",
 				translatedText: "translation_23_21",
 				title: "Panau",
 				award: "Diplom",

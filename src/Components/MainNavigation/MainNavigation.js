@@ -52,7 +52,7 @@ const MainNavigation = () => {
                     {translate({id:'Regulations'})}
                 </NavLink>
             </li>
-            <li><a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">{translate({id: 'enter'})}</a></li>
+            {/*<li><a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">{translate({id: 'enter'})}</a></li>*/}
         </ul>
     );
 }

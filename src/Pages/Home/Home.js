@@ -30,7 +30,7 @@ const Home = () => {
                                 <h1>{translate({id: 'Photographic reality'})}</h1>
                             </div>
                             <div className={classes.links}>
-                                <a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">{translate({id: 'enter'})}</a>
+                                <NavLink className={classes.buttonLink} to="/editions" target="_blank" rel="noopener noreferrer">{translate({id: 'editions'})}</NavLink>
                             </div>
                         </div>
                     </div>
@@ -40,7 +40,7 @@ const Home = () => {
                 <div className={`${classes.container} container`}>
                     <div className="row">
                         <div className="col-md-12">
-                            <h2 className={classes.extended}><span>{translate({id: 'DEADLINE_EXTENDED'})}</span></h2>
+                            <h3>{translate({id:"THANK_YOU"})}</h3>
                             <h2><span>{translate({id: 'HOME_MAIN_TEXT'})}</span></h2>
                             <h3>
                                 {translate({id: 'HOME_MAIN_TEXT_1', value: {cash: <strong>$2.000</strong>}})} <br/>
@@ -65,20 +65,20 @@ const Home = () => {
                             <p>{translate({id: 'terms_4_5'})}</p>
                         </div>
                     </div>
-                    <div className="row">
-                        <div className="col-md-12">
-                            <a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">{translate({id: 'enter now'})}</a>
-                        </div>
-                    </div>
+                    {/*<div className="row">*/}
+                    {/*    <div className="col-md-12">*/}
+                    {/*        <a className={classes.buttonLink} href="https://entry.phodar.net" target="_blank" rel="noopener noreferrer">{translate({id: 'enter now'})}</a>*/}
+                    {/*    </div>*/}
+                    {/*</div>*/}
                 </div>
             </div>
             <div className={classes.logoSofia}>
                 <div className={`${classes.container} container`}>
                     <div className="row">
                         <div className={`col-md-6 ${classes.logos}`}>
-                            <div className={classes.logoContainer}>
+                            <a href="https://kultura.sofia.bg/" target="_blank" rel="noreferrer" className={classes.logoContainer}>
                                 <h3>{translate({id: 'sofia_logo'})}</h3>
-                            </div>
+                            </a>
                         </div>
                         <div className={`col-md-6 ${classes.logos}`}>
                             <a rel="noreferrer" href="https://obscuramag.com/" target="_blank" className={`${classes.logoContainer} ${classes.obscura}`}>

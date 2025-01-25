@@ -5,7 +5,7 @@
 
 .mainLinks li a.buttonLink, .mainLinks li a.buttonLink:visited {
     color: rgba(188, 24, 24, 0.8);
-    font-family: 'Conv_Intro';
+    font-family: 'Conv_Intro', sans-serif;
     letter-spacing: 0;
     line-height: 28px;
     text-align: center;
@@ -74,8 +74,9 @@
     text-decoration: none;
 }
 
-.mainLinks li a.active {
+.mainLinks li a.active, .mainLinks li a:hover {
     text-decoration: underline;
+    color: #BB1817;
 }
 
 .mainLinks li:first-of-type a {

@@ -12,7 +12,7 @@ const Regulations = () => {
                         <h1>
                             <strong>{translate({id: 'Regulations_2'})}</strong>
                         </h1>
-                        <h2 className={classes.extended}>{translate({id: "DEADLINE_EXTENDED"})}</h2>
+                        {/*<h2 className={classes.extended}>{translate({id: "DEADLINE_EXTENDED"})}</h2>*/}
                         <h2>{translate({id: 'terms_1'})}</h2>
                         <p>{translate({id: 'terms_2'})}</p>
                         <p>{translate({
@@ -36,6 +36,7 @@ const Regulations = () => {
                             value: {link: <NavLink className="active" to="/">phodar.net</NavLink>}
                         })}</p>
                         <p>{translate({id: 'terms_11_1'})}</p>
+                        <p>{translate({id: 'terms_11_2'})}</p>
                         <h2>{translate({id: 'terms_12'})}</h2>
                         <p>{translate({
                             id: 'terms_13',
@@ -61,11 +62,11 @@ const Regulations = () => {
                             </li>
                         </ul>
                         <p>{translate({id: 'terms_20'})}</p>
-                        <p>{translate({id: 'terms_21'})}</p>
+                        {/*<p>{translate({id: 'terms_21'})}</p>*/}
                         <p>{translate({id: 'terms_22'})}</p>
                         <h2>{translate({id: 'terms_23'})}</h2>
                         <ol>
-                            <li><strong>{translate({id: 'terms_24q'})}</strong> {translate({id: 'terms_24'})}</li>
+                            <li><strong>{translate({id: 'terms_24q'})}</strong> <strong className={classes.important}>{translate({id: 'terms_24'})}</strong></li>
                             <li><strong>{translate({id: 'terms_25q'})}</strong> {translate({id: 'terms_25'})}</li>
                             <li><strong>{translate({id: 'terms_26q'})}</strong> {translate({id: 'terms_26'})}</li>
                             <li><strong>{translate({id: 'terms_27q'})}</strong> {translate({id: 'terms_27'})}</li>
@@ -74,6 +75,7 @@ const Regulations = () => {
                         <p>{translate({id: 'terms_29'})}</p>
                         <h2>{translate({id: 'terms_30'})}</h2>
                         <p>{translate({id: 'terms_31'})}</p>
+                        <p>{translate({id: 'terms_31_add'})}</p>
                         <h2>{translate({id: 'terms_32'})}</h2>
                         <p>{translate({id: 'terms_33'})}</p>
                         <ul>
