@@ -102,19 +102,18 @@ const Home = () => {
                             </a>
                         </div>
                         <div className={`col-md-3 ${classes.logos}`}>
-                            <a rel="noreferrer" href="https://obscuramag.com/" target="_blank"
-                               className={`${classes.logoContainer} ${classes.obscura}`}>
-                            </a>
-                        </div>
-
-                        <div className={`col-md-3 ${classes.logos}`}>
-                            <a href="https://kultura.sofia.bg/" target="_blank" rel="noreferrer"
+                            <a href="https://nationalgallery.bg/" target="_blank" rel="noreferrer"
                                className={`${classes.logoContainer} ${classes.ng}`}>
                             </a>
                         </div>
                         <div className={`col-md-3 ${classes.logos}`}>
                             <a rel="noreferrer" href="https://ncf.bg/bg" target="_blank"
                                className={`${classes.logoContainer} ${classes.nfk}`}>
+                            </a>
+                        </div>
+                        <div className={`col-md-3 ${classes.logos}`}>
+                            <a rel="noreferrer" href="https://obscuramag.com/" target="_blank"
+                               className={`${classes.logoContainer} ${classes.obscura}`}>
                             </a>
                         </div>
                     </div>
