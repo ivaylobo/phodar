@@ -40,11 +40,32 @@ const Home = () => {
                 <div className={`${classes.container} container`}>
                     <div className="row">
                         <div className="col-md-12">
-                            <h3>{translate({id:"THANK_YOU"})}</h3>
+                            <h3 className={classes.headline}>{translate({id: "2025_1"})}</h3>
+                            <p className={classes.highlight}><strong>{translate({id: "2025_4"})}</strong></p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-6">
+                            <ul className={classes.program}>
+                                <li><strong>{translate({id: "2025_5_1"})}</strong>{translate({id: "2025_5"})}</li>
+                                <li><strong>{translate({id: "2025_6_1"})}</strong>{translate({id: "2025_6"})}</li>
+                                <li><strong>{translate({id: "2025_7_1"})}</strong>{translate({id: "2025_7"})}</li>
+                            </ul>
+                        </div>
+                        <div className="col-md-6">
+                            <p>{translate({id: "2025_2"})}</p>
+                            <p>{translate({id: "2025_3"})}</p>
+                        </div>
+                    </div>
+                    <div className="row">
+                        <div className="col-md-12">
                             <h2><span>{translate({id: 'HOME_MAIN_TEXT'})}</span></h2>
                             <h3>
                                 {translate({id: 'HOME_MAIN_TEXT_1', value: {cash: <strong>$2.000</strong>}})} <br/>
-                                {translate({id: 'Award for Humanistic Photography', value: {cash: <strong>$600</strong>}})} <br/>
+                                {translate({
+                                    id: 'Award for Humanistic Photography',
+                                    value: {cash: <strong>$600</strong>}
+                                })} <br/>
                                 {translate({id: 'HOME_MAIN_TEXT_9', value: {cash: <strong>$600</strong>}})}
                             </h3>
 
@@ -73,15 +94,27 @@ const Home = () => {
                 </div>
             </div>
             <div className={classes.logoSofia}>
-                <div className={`${classes.container} container`}>
+                <div className={`${classes.container} ${classes.partners} container`}>
                     <div className="row">
-                        <div className={`col-md-6 ${classes.logos}`}>
-                            <a href="https://kultura.sofia.bg/" target="_blank" rel="noreferrer" className={classes.logoContainer}>
-                                <h3>{translate({id: 'sofia_logo'})}</h3>
+                        <div className={`col-md-3 ${classes.logos}`}>
+                            <a href="https://kultura.sofia.bg/" target="_blank" rel="noreferrer"
+                               className={`${classes.logoContainer} ${classes.cultura}`}>
                             </a>
                         </div>
-                        <div className={`col-md-6 ${classes.logos}`}>
-                            <a rel="noreferrer" href="https://obscuramag.com/" target="_blank" className={`${classes.logoContainer} ${classes.obscura}`}>
+                        <div className={`col-md-3 ${classes.logos}`}>
+                            <a rel="noreferrer" href="https://obscuramag.com/" target="_blank"
+                               className={`${classes.logoContainer} ${classes.obscura}`}>
+                            </a>
+                        </div>
+
+                        <div className={`col-md-3 ${classes.logos}`}>
+                            <a href="https://kultura.sofia.bg/" target="_blank" rel="noreferrer"
+                               className={`${classes.logoContainer} ${classes.ng}`}>
+                            </a>
+                        </div>
+                        <div className={`col-md-3 ${classes.logos}`}>
+                            <a rel="noreferrer" href="https://ncf.bg/bg" target="_blank"
+                               className={`${classes.logoContainer} ${classes.nfk}`}>
                             </a>
                         </div>
                     </div>
@@ -91,7 +124,7 @@ const Home = () => {
                 <div className={`${classes.container} container`}>
                     <div className="row">
                         <div className="col-md-12">
-                        <h2>{translate({id: 'showcase your photography in our festival exhibitions'})}</h2>
+                            <h2>{translate({id: 'showcase your photography in our festival exhibitions'})}</h2>
                             <div className={classes.allWrapper}>
                                 <div className={`${classes.rowWrapper} ${classes.first}`}>
                                     <div className={classes.imageWrapper}></div>

@@ -206,7 +206,15 @@
 
 .partners {
     margin-top: 30px;
+    border: 1px solid #ececec;
+    border-left: none;
+    border-right: none;
 }
+
+.partners .logos{
+    padding: 0 30px;
+}
+
 
 .partner-info img {
     display: inline-block;
@@ -333,10 +341,34 @@ p.funded {
     z-index: 2;
 }
 
+.partners{
+    padding-block: 20px;
+}
+
 .logoSofia{
-    border: 1px solid #E0E0E0;
     border-left: none;
     border-right: none;
+}
+
+.mainInfo ul.program{
+    padding-left: 20px;
+}
+
+.mainInfo ul.program li{
+    padding-bottom: 15px;
+}
+
+.program strong, .mainInfo p.highlight strong{
+    color: #D23C3B;
+    font-size: 18px;
+}
+
+h3.headline{
+    margin-bottom: 20px
+}
+
+.mainInfo p.highlight strong{
+    font-size: 30px;
 }
 
 .logoContainer{
@@ -345,16 +377,35 @@ p.funded {
     background-size: 120px;
     max-width: 330px;
     margin: 0 auto;
-    border: 1px solid #E0E0E0;
     border-top: none;
     border-bottom: none;
     display: inline-block;
+}
+
+.cultura{
+    background: url('../../assets/images/logo_programa_2_kontur_eng.svg') center center no-repeat;
+    width: 100%;
+    background-size: 80%;
+    height: 330px;
 }
 
 .obscura{
     background: url(../../assets/images/obscura.svg) center center no-repeat;
     width: 100%;
     background-size: 80%;
+    height: 330px;
+}
+
+.nfk{
+    background: url(../../assets/images/NCF.svg) center center no-repeat;
+    width: 100%;
+    background-size: contain;
+    height: 330px;
+}
+.ng{
+    background: url(../../assets/images/NG.svg) center center no-repeat;
+    width: 100%;
+    background-size: contain;
     height: 330px;
 }
 
@@ -775,9 +826,6 @@ footer {
         display: none;
     }
 
-    .obscura{
-        border-top: 1px solid #E0E0E0;
-    }
 }
 
 @media all and (max-width: 640px) {
