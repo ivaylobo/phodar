@@ -10,7 +10,6 @@ const WinnersList = (props) => {
 
     const winnersHTML = props.winners.map((author, index) => {
         const award = translate({ id: author.award });
-        console.log(author.urls.length)
         const single = author.urls.length === 1;
 
         // Compute dynamic class for container

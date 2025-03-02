@@ -582,7 +582,13 @@ const messages = {
         "2025_6_1": "Theoretical seminar",
         "2025_6": " on \"Photographic Reality\" - 11.03.2025, 6 pm in the exhibition hall. The seminar will be attended by experts in the field of humanities and visual arts from St. Kliment Ohridski\", NATFA, NBU and other higher education institutions, representatives of galleries and NGOs active in visual arts, students, amateur photographers and established visual artists. ",
         "2025_7_1": "Tour of the exhibition",
-        "2025_7": " - 16.03.2025, 1 pm for those who wish to find out more about the festival and the general exhibition."
+        "2025_7": " - 16.03.2025, 1 pm for those who wish to find out more about the festival and the general exhibition.",
+        "Albania": "Albania",
+        "United States of America": "USA",
+        "Moldova": "Moldova",
+        "United Kingdom": "United Kingdom",
+        "Colombia": "КColombia",
+        "Georgia": "Georgia"
     }
 }
 
