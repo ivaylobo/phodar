@@ -275,9 +275,9 @@ span.Dropdown-arrow, .is-open span.Dropdown-arrow {
     }
 }
 
-.carousel ul.control-dots{
-    padding: 10px 0 70px;
-}
+/*.carousel ul.control-dots{*/
+/*    padding: 10px 0 70px;*/
+/*}*/
 
 .arrow-left, .arrow-right {
     width: 38px;

@@ -10252,7 +10252,6 @@ const galleryObj = [
 					"galleries/2025/Aggelos_Barai/12.jpg",
 					"galleries/2025/Aggelos_Barai/13.jpg",
 					"galleries/2025/Aggelos_Barai/14.jpg",
-					"galleries/2025/Aggelos_Barai/15.jpg",
 				],
 				urlsMedium: [
 					"galleriesMedium/2025/Aggelos_Barai/1.jpg",
@@ -10269,7 +10268,6 @@ const galleryObj = [
 					"galleriesMedium/2025/Aggelos_Barai/12.jpg",
 					"galleriesMedium/2025/Aggelos_Barai/13.jpg",
 					"galleriesMedium/2025/Aggelos_Barai/14.jpg",
-					"galleriesMedium/2025/Aggelos_Barai/15.jpg"
 				],
 				urlsThumb: [
 					"galleriesThumb/2025/Aggelos_Barai/1.jpg",
@@ -10286,7 +10284,6 @@ const galleryObj = [
 					"galleriesThumb/2025/Aggelos_Barai/12.jpg",
 					"galleriesThumb/2025/Aggelos_Barai/13.jpg",
 					"galleriesThumb/2025/Aggelos_Barai/14.jpg",
-					"galleriesThumb/2025/Aggelos_Barai/15.jpg"
 				]
 			},
 			{
@@ -11171,7 +11168,7 @@ const galleryObj = [
 				title: "Detached from reality",
 				award: "Diplom",
 				country: "Poland",
-				level: 3,
+				level: 4,
 				urls: [
 					"galleries/2025/Jacek_Cislo/1.jpg",
 					"galleries/2025/Jacek_Cislo/2.jpg",
