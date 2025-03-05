@@ -370,6 +370,7 @@ const messages= {
         "Slovenia": "Словения",
         "Series winners": "Победители в конкурса",
         "participants in the exhibition": "Участници в изложбата",
+        "participants": "Участници",
         "Single items": "Единични снимки",
         "PHODAR_BIENNIAL": "Биенале Фодар 2021",
         "ASSISTANCE": "Със съдействието на",

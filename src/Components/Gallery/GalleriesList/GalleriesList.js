@@ -81,7 +81,7 @@ const GalleriesList = () => {
 
             {participants.authors.length > 0 && winners.scrollEnded === true && (
                 <div className="jury">
-                    <h2>{translate({id: 'participants in the exhibition'})}</h2>
+                    <h2>{translate({id: 'participants'})}</h2>
                     <InfiniteScroll
                         next={() => fetchAuthors('participants', setParticipants, participants)}
                         hasMore={!participants.scrollEnded}

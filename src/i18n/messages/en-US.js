@@ -372,6 +372,7 @@ const messages = {
         "Slovenia": "Slovenia",
         "Series winners": "Series winners",
         "participants in the exhibition": "participants in the exhibition",
+        "participants": "participants",
         "Single items": "Single items",
         "PHODAR_BIENNIAL": "PHODAR BIENNIAL 2021",
         "COORGANIZER": "Co-organizer",

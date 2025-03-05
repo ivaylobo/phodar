@@ -5,7 +5,6 @@ import React, {Fragment} from "react";
 import BackgroundSlider from "react-background-slider";
 import img1 from '../../assets/images/head_1.jpg';
 import img2 from '../../assets/images/head_2.jpg';
-import img3 from '../../assets/images/head_3.jpg';
 import img4 from '../../assets/images/head_4.jpg';
 
 const Home = () => {
@@ -13,7 +12,7 @@ const Home = () => {
         <Fragment>
             <div className={classes.summary}>
                 <BackgroundSlider
-                    images={[img1, img2, img3, img4]}
+                    images={[img1, img2, img4]}
                     duration={5}
                     transition={1}
                 />
@@ -22,7 +21,7 @@ const Home = () => {
                         <div className={`col-md-12 ${classes.main}`}>
                             <div className={classes.top}>
                                 <h4>13</h4>
-                                <div className={classes.next}><span>{translate({id: 'edition'})}</span></div>
+                                <div className={classes.next}><span>{translate({id: 'winners'})}</span></div>
                             </div>
                             <h3>{translate({id: 'international photo competition'})}</h3>
                             <div className={classes.bottom}>
@@ -30,7 +29,7 @@ const Home = () => {
                                 <h1>{translate({id: 'Photographic reality'})}</h1>
                             </div>
                             <div className={classes.links}>
-                                <NavLink className={classes.buttonLink} to="/editions" target="_blank" rel="noopener noreferrer">{translate({id: 'editions'})}</NavLink>
+                                <NavLink className={classes.buttonLink} to="/editions" target="_blank" rel="noopener noreferrer">{translate({id: 'winners'})}</NavLink>
                             </div>
                         </div>
                     </div>
