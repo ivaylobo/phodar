@@ -590,6 +590,7 @@ const messages= {
         "United Kingdom": "Великобритания",
         "Colombia": "Колумбия",
         "Georgia": "Грузия",
+        "Selected": "Селектирани",
     }
 }
 

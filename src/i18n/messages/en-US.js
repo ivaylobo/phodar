@@ -589,7 +589,8 @@ const messages = {
         "Moldova": "Moldova",
         "United Kingdom": "United Kingdom",
         "Colombia": "КColombia",
-        "Georgia": "Georgia"
+        "Georgia": "Georgia",
+        "Selected": "Selected"
     }
 }
 

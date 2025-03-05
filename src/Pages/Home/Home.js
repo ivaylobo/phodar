@@ -21,7 +21,7 @@ const Home = () => {
                         <div className={`col-md-12 ${classes.main}`}>
                             <div className={classes.top}>
                                 <h4>13</h4>
-                                <div className={classes.next}><span>{translate({id: 'winners'})}</span></div>
+                                <div className={classes.next}><span>{translate({id: 'edition'})}</span></div>
                             </div>
                             <h3>{translate({id: 'international photo competition'})}</h3>
                             <div className={classes.bottom}>
