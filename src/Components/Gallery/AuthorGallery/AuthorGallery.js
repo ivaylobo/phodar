@@ -54,6 +54,7 @@ const AuthorGallery = () => {
 
         let authorName = location.search.replace('?author=', '');
         const edition = galleryObj.find(edition => edition.year === year);
+        console.log(112233);
 
         if (authorName.indexOf('&fbclid') !== -1) {
             authorName = authorName.substring(0, authorName.lastIndexOf('&fbclid'));
@@ -71,13 +72,14 @@ const AuthorGallery = () => {
         const currentAuthor = authors.find(author => author.name === authorName.replace(/_/g, ' '));
 
         if (typeof currentAuthor === 'undefined') {
+            console.log(currentAuthor)
             goToHomePage();
         }
     }, [location]);
 
     const year = +location.pathname.slice(-4);
     const edition = galleryObj.find(edition => edition.year === year);
-    let authorName = location.search.replace('?author=', '');
+    let authorName = location.search.replace('?author=', '').split('&fbclid')[0];
     const currentAuthor = edition?.authors.find(author => author.name === authorName.replace(/_/g, ' '));
 
     const imagesThumb = currentAuthor?.urlsThumb.map((image, id) => (
