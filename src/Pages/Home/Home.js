@@ -34,7 +34,7 @@ const Home = () => {
                                 <h1>{translate({id: 'Photographic reality'})}</h1>
                             </div>
                             <div className={classes.links}>
-                                <NavLink className={classes.buttonLink} to={`/editions/${maxYear}`} target="_blank" rel="noopener noreferrer">{translate({id: 'winners'})}</NavLink>
+                                <NavLink className={classes.buttonLink} to={`/editions/${maxYear}`}>{translate({id: 'winners'})}</NavLink>
                             </div>
                         </div>
                     </div>
