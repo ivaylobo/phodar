@@ -1,13 +1,18 @@
 import translate from "../../i18n/translate";
 import classes from './Home.module.css';
 import {NavLink} from "react-router-dom";
-import React, {Fragment} from "react";
+import React, {Fragment, useState} from "react";
 import BackgroundSlider from "react-background-slider";
 import img1 from '../../assets/images/head_1.jpg';
 import img2 from '../../assets/images/head_2.jpg';
 import img4 from '../../assets/images/head_4.jpg';
+import Galleries from '../../Components/Gallery/Galleries';
 
 const Home = () => {
+    const years = Galleries.map(edition => {
+        return edition.year;
+    });
+    const maxYear = Math.max(...years);
     return (
         <Fragment>
             <div className={classes.summary}>
@@ -29,7 +34,7 @@ const Home = () => {
                                 <h1>{translate({id: 'Photographic reality'})}</h1>
                             </div>
                             <div className={classes.links}>
-                                <NavLink className={classes.buttonLink} to="/editions" target="_blank" rel="noopener noreferrer">{translate({id: 'winners'})}</NavLink>
+                                <NavLink className={classes.buttonLink} to={`/editions/${maxYear}`} target="_blank" rel="noopener noreferrer">{translate({id: 'winners'})}</NavLink>
                             </div>
                         </div>
                     </div>
